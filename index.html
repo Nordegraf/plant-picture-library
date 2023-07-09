@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/plant-picture-library/assets/css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="/plant-picture-library/assets/css/plants.css"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="/plant-picture-library/assets/img/favicon.ico"
+    />
+
+    <title>Plants - Plant Picture Library</title>
+  </head>
+  <body>
+    <div class="container py-3" style="max-width: 1100px">
+      <a href=""><h2>Plant Picture Library</h2></a>
+      <hr class="footer" />
+      <div class="container px-1 py-1">
+        <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6">
+          <div class="col-md-2 accordion accordion-flush" id="accordioncountry">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingcountry">
+                <button
+                  class="accordion-button collapsed about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsecountry"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsecountry"
+                  id="country"
+                >
+                  <span>Country</span>
+                </button>
+              </h2>
+              <div
+                id="flush-collapsecountry"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingcountry"
+              >
+                <div class="accordion-body filters">
+                  <button
+                    class="btn btn-primary plant-category filter-button Saudi_Arabia"
+                    id="country;Saudi_Arabia"
+                    data-rank=" 1 "
+                  >
+                    Saudi Arabia
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-2 accordion accordion-flush"
+            id="accordionlocation"
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headinglocation">
+                <button
+                  class="accordion-button collapsed about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapselocation"
+                  aria-expanded="false"
+                  aria-controls="flush-collapselocation"
+                  id="location"
+                >
+                  <span>Location</span>
+                </button>
+              </h2>
+              <div
+                id="flush-collapselocation"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headinglocation"
+              >
+                <div class="accordion-body filters">
+                  <button
+                    class="btn btn-primary plant-category filter-button Saudi_Arabia Al-Wa_bah_Crater"
+                    id="location;Al-Wa_bah_Crater"
+                    data-rank=" 2 "
+                  >
+                    Al-Wa bah Crater
+                  </button>
+
+                  <button
+                    class="btn btn-primary plant-category filter-button Saudi_Arabia Wadi_ad-Dawasir"
+                    id="location;Wadi_ad-Dawasir"
+                    data-rank=" 2 "
+                  >
+                    Wadi ad-Dawasir
+                  </button>
+
+                  <button
+                    class="btn btn-primary plant-category filter-button Saudi_Arabia Masturah_Dunes"
+                    id="location;Masturah_Dunes"
+                    data-rank=" 2 "
+                  >
+                    Masturah Dunes
+                  </button>
+
+                  <button
+                    class="btn btn-primary plant-category filter-button"
+                    id="location;Potato_Rock"
+                    data-rank=" 2 "
+                  >
+                    Potato Rock
+                  </button>
+
+                  <button
+                    class="btn btn-primary plant-category filter-button Saudi_Arabia KAUST"
+                    id="location;KAUST"
+                    data-rank=" 2 "
+                  >
+                    KAUST
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 accordion accordion-flush" id="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading">
+                <button
+                  class="accordion-button collapsed about"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse"
+                  id=""
+                >
+                  <span>Sort By</span>
+                </button>
+              </h2>
+              <div
+                id="flush-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-heading"
+              >
+                <div class="accordion-body filters">
+                  <button
+                    class="btn btn-primary plant-category sort-button"
+                    id="name"
+                  >
+                    Name
+                  </button>
+
+                  <button
+                    class="btn btn-primary plant-category sort-button"
+                    id="country"
+                  >
+                    Country
+                  </button>
+
+                  <button
+                    class="btn btn-primary plant-category sort-button"
+                    id="location"
+                  >
+                    Location
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="row row-cols-2 row-cols-sm-4 row-cols-md-6 iso_grid"
+          id="plant-content"
+        ></div>
+      </div>
+      <footer>
+        <hr class="footer" />
+        <span style="font-size: small">
+          <a class="link" href="https://github.com/Nordegraf">Imprint</a>&nbsp;
+          <a class="link" href="https://gitlab.com/nordegraf"
+            >Privacy Statement</a
+          >&nbsp; </span
+        ><br />
+        <span style="font-size: small">
+          &copy; Copyright 2023 Niklas Conen&nbsp;
+        </span>
+        <script src="/plant-picture-library/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/plant-picture-library/assets/js/jquery-3.7.0.min.js"></script>
+        <script src="/plant-picture-library/assets/js/masonry.pkgd.min.js"></script>
+        <script src="/plant-picture-library/assets/js/masonry.js"></script>
+        <script src="/plant-picture-library/assets/js/isotope.pkgd.min.js"></script>
+        <script src="/plant-picture-library/assets/js/infinite-scroll.pkgd.min.js"></script>
+        <script src="/plant-picture-library/assets/js/isotope.js"></script>
+
+        <script src="/plant-picture-library/assets/js/plant_library.js"></script>
+      </footer>
+    </div>
+  </body>
+</html>
