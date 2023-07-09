@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container py-3" style="max-width: 1100px">
+      {% include navigation.html %}
+        <div class="container px-1 py-1">
+          {{ content }}
+        </div>
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

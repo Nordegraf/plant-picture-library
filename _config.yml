@@ -1,0 +1,75 @@
+title: Plant Picture Library
+email: niklas.conen@student.kit.edu
+description: >-
+  Plant Picture Library
+baseurl: /plant-picture-library
+url: "https://nordegraf.github.io/"
+author: Niklas Conen
+year: 2023
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+pagination:
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+permalink: /:year/:month/:day/:title.html
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+  plants:
+    output: false
+    permalink: /:collection/:name
+
+plant_attributes:
+  # attributes must be unique!
+  # attributes are ordered by the order of appearance in the file
+  # place is defined by country => location
+  place:
+    - country
+    - location
+  #taxonomy:
+  #  - group
+  #  - family
+  #  - genus
+  #  - species
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
