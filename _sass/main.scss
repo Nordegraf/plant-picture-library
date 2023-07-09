@@ -1,0 +1,56 @@
+$primary: rgb(0, 195, 255);
+$darkprimary: #001930;
+
+$secondary: rgb(255, 174, 0);
+$darksecondary: darken($secondary, 15%);
+
+$bg: rgb(13, 19, 27);
+
+$subheadlines: rgb(139, 228, 255);
+$text: rgb(164, 203, 209);
+
+$border_hr: $primary;
+
+$transparent: rgba(0, 0, 0, 0);
+
+h1 {
+    color: $primary;
+}
+
+h3 {
+    color: $primary;
+}
+
+p {
+    color: $text
+}
+
+div {
+    color: $primary;
+}
+
+a {
+    color: $primary;
+}
+
+a:hover {
+    color: $secondary;
+}
+
+a:visited {
+    color: darken($primary, 5%);
+}
+
+time {
+    color: $text;
+}
+
+.pagination-a {
+    color: $primary;
+    text-decoration: none;
+}
+
+.pagination-a:hover {
+    color: $secondary;
+    text-decoration: none;
+}
