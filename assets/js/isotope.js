@@ -1,5 +1,7 @@
 var $grid = $('.isogrid')
 
+var activeFilters = [];
+
 $(window).on("ready", function () {
   $grid.css("height", "auto");
   $grid.isotope({
@@ -12,8 +14,22 @@ $(window).on("ready", function () {
 
 $('.filter-btn').on('click', function () {
   var filterValue = $(this).attr('data-filter');
-  console.log(filterValue);
-  $grid.isotope({ filter: filterValue });
+
+  if ($(this).hasClass("clicked")) {
+    activeFilters.splice(activeFilters.indexOf(filterValue), 1);
+    $(this).removeClass("clicked");
+  } else {
+    activeFilters.push(filterValue);
+    $(this).addClass("clicked");
+  }
+
+  $grid.isotope({ filter: activeFilters.join(',') });
+});
+
+$('.reset-btn').on('click', function () {
+  activeFilters = [];
+  $('.filter-btn').removeClass("clicked");
+  $grid.isotope({ filter: '*' });
 });
 
 
