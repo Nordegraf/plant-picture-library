@@ -19,15 +19,20 @@
       <a href="/plant-picture-library/"><h2>Plant Picture Library</h2></a>
       <hr class="footer" />
       <div class="container px-1 py-1">
-        <div class="isogrid">
-          <a class="element-item transition metal">m</a>
-          <a class="element-item post-transition metal">m</a>
-          <a class="element-item alkali metal">m</a>
-          <a class="element-item transition metal">m</a>
-          <a class="element-item lanthanoid metal inner-transition">m</a>
-          <a class="element-item halogen nonmetal">n</a>
-          <a class="element-item alkaline-earth metal">m</a>
-        </div>
+        <button
+          class="btn btn-primary plant-category filter-btn"
+          data-filter=".KAUST"
+        >
+          KAUST
+        </button>
+        <button
+          class="btn btn-primary plant-category filter-btn"
+          data-filter="*"
+        >
+          Reset Filter
+        </button>
+
+        <div class="isogrid" id="plant-content"></div>
       </div>
       <footer>
         <hr class="footer" />
@@ -47,6 +52,8 @@
         <script src="/plant-picture-library/assets/js/isotope.pkgd.min.js"></script>
         <script src="/plant-picture-library/assets/js/infinite-scroll.pkgd.min.js"></script>
         <script src="/plant-picture-library/assets/js/isotope.js"></script>
+
+        <script src="/plant-picture-library/assets/js/plant_library.js"></script>
       </footer>
     </div>
   </body>

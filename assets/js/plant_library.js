@@ -1,3 +1,4 @@
+var contentDiv = document.getElementById("plant-content");
 // variables
 $.getJSON("/plant-picture-library/data.json", function(plants) {
   console.log(plants);
@@ -15,6 +16,7 @@ $.getJSON("/plant-picture-library/data.json", function(plants) {
 
     $.when.apply($, promises).done(function() {
       sortByAttr(sorted_by, plants);
+      $(window).trigger("ready");
     });
 
     $(".filter-button").click(function(){
