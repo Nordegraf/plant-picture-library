@@ -2,7 +2,7 @@
 layout: empty
 ---
 <a class="element-item{% for tag in page.plant.tags %} {{ tag | replace: ' ', '_' }}{% endfor %}" href="{{ page.plant.name | replace: " ", "_" | downcase | prepend: "plants/" | append: ".html" | relative_url }}" id="{{ page.plant.oid }}">
-  <div class="col plant-container">
+  <div class="plant-container">
     <div class="image-container">
       <img src="{{ page.plant.images[0].path | relative_url }}" alt="{{ page.plant.images[0].alt }}" class="image">
     </div>
