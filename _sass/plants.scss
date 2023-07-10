@@ -15,75 +15,6 @@ $border_hr: $primary;
 @import "bootstrap/variables";
 @import "bootstrap/mixins/breakpoints";
 
-.plant-container {
-    position: relative;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    text-align: center;
-    padding: 0.5em;
-}
-
-.plant-container {
-    .image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .image-container {
-        border-radius: 3px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    transition: .5s ease;
-    padding: 0.5em;
-}
-
-.plant-name {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
-    color: white;
-    width: 80%;
-    font-size: 18px;
-    position: absolute;
-    align-content: center;
-    top:80%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    transition: .5s ease;
-}
-
-.plant-container:hover {
-    .overlay {
-        opacity: 1;
-    }
-
-    .plant-name {
-        background-color: rgba(0, 0, 0, 0.0);
-    }
-}
-
-a.plant {
-    padding: 0;
-}
-
 .accordion-item.plant {
     width: auto;
 }
@@ -196,12 +127,14 @@ iframe.plant-map {
 .element-item {
     position: relative;
     float: left;
-    width: 100px;
-    height: 100px;
+    width: calc(16.6667% - 10px);
+    min-width: 140px;
+    aspect-ratio: 1/1;
     margin: 5px;
-    padding: 10px;
-    background: #888;
-    color: #262524;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: $primary;
   }
 
   /* clear fix */
@@ -216,3 +149,73 @@ iframe.plant-map {
     margin: 0;
     padding: 0;
   }
+
+
+.plant-container {
+    position: relative;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+.plant-container {
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .image-container {
+        border-radius: 3px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: .5s ease;
+    padding: 0.5em;
+}
+
+.plant-name {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: white;
+    width: 80%;
+    font-size: 18px;
+    position: absolute;
+    align-content: center;
+    top:70%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    transition: .5s ease;
+}
+
+.plant-container:hover {
+    .overlay {
+        opacity: 1;
+    }
+
+    .plant-name {
+        background-color: rgba(0, 0, 0, 0.0);
+    }
+}
+
+a.plant {
+    padding: 0;
+}
