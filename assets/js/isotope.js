@@ -7,7 +7,12 @@ $(window).on("ready", function () {
   $grid.isotope({
     itemSelector: '.element-item',
     layoutMode: 'fitRows',
-    filter: '*'
+    filter: '*',
+    getSortData: {
+      name: '.plant-name', // text from querySelector
+    },
+    sortBy: 'name',
+
   });
   resize_elems();
 });
@@ -36,6 +41,7 @@ $('.reset-btn').on('click', function () {
 $(window).on("resize", function () {
   resize_elems();
 });
+
 
 function resize_elems() {
   var gridwidth = $grid.width();
