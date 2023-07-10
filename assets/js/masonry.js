@@ -1,12 +1,12 @@
 $(window).on("load", function () {
-    $('.grid').masonry({
+    $('.masongrid').masonry({
         itemSelector: ".grid-item",
         columnWidth: ".grid-sizer",
         percentPosition: true
         });
 });
 
-$('.grid').on('layoutComplete', function (event, laidOutItems) {
+$('.masongrid').on('layoutComplete', function (event, laidOutItems) {
     var grid = $(this);
     $(this).find('.grid-item-notes').each(function () {
         imgHeight = grid.find('.grid-item-carousel').height();
@@ -20,5 +20,8 @@ $('.grid').on('layoutComplete', function (event, laidOutItems) {
 });
 
 $(window).on("resize", function () {
-    $('.grid').masonry.layout();
+    var grid = $('.masongrid');
+    if (grid.length > 0) {
+        $('.masongrid').masonry.layout();
+    }
 });

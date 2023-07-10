@@ -1,13 +1,12 @@
 ---
 layout: default
+script: assets/js/plant_library.js
 ---
 
-<div class="isogrid">
-    <a class="element-item transition metal">m</a>
-    <a class="element-item post-transition metal">m</a>
-    <a class="element-item alkali metal">m</a>
-    <a class="element-item transition metal">m</a>
-    <a class="element-item lanthanoid metal inner-transition">m</a>
-    <a class="element-item halogen nonmetal">n</a>
-    <a class="element-item alkaline-earth metal">m</a>
+<button class="btn btn-primary plant-category filter-btn" data-filter=".KAUST">KAUST</button>
+<button class="btn btn-primary plant-category filter-btn" data-filter="*">Reset Filter</button>
+
+
+<div class="isogrid" id="plant-content">
+
 </div>
