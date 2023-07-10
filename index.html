@@ -7,17 +7,12 @@
     <link rel="stylesheet" href="/plant-picture-library/assets/css/main.css" />
 
     <link
-      rel="stylesheet"
-      href="/plant-picture-library/assets/css/plants.css"
-    />
-
-    <link
       rel="icon"
       type="image/png"
       href="/plant-picture-library/assets/img/favicon.ico"
     />
 
-    <title>Plants - Plant Picture Library</title>
+    <title>- Plant Picture Library</title>
   </head>
   <body>
     <div class="container py-3" style="max-width: 1100px">
@@ -47,9 +42,10 @@
               >
                 <div class="accordion-body filters">
                   <button
-                    class="btn btn-primary plant-category filter-button Saudi_Arabia"
+                    class="btn btn-primary plant-category filter-btn Saudi_Arabia"
                     id="country;Saudi_Arabia"
                     data-rank=" 1 "
+                    data-filter=".Saudi_Arabia"
                   >
                     Saudi Arabia
                   </button>
@@ -83,41 +79,46 @@
               >
                 <div class="accordion-body filters">
                   <button
-                    class="btn btn-primary plant-category filter-button Saudi_Arabia Al-Wa_bah_Crater"
+                    class="btn btn-primary plant-category filter-btn Saudi_Arabia Al-Wa_bah_Crater"
                     id="location;Al-Wa_bah_Crater"
                     data-rank=" 2 "
+                    data-filter=".Al-Wa_bah_Crater"
                   >
                     Al-Wa bah Crater
                   </button>
 
                   <button
-                    class="btn btn-primary plant-category filter-button Saudi_Arabia Wadi_ad-Dawasir"
+                    class="btn btn-primary plant-category filter-btn Saudi_Arabia Wadi_ad-Dawasir"
                     id="location;Wadi_ad-Dawasir"
                     data-rank=" 2 "
+                    data-filter=".Wadi_ad-Dawasir"
                   >
                     Wadi ad-Dawasir
                   </button>
 
                   <button
-                    class="btn btn-primary plant-category filter-button Saudi_Arabia Masturah_Dunes"
+                    class="btn btn-primary plant-category filter-btn Saudi_Arabia Masturah_Dunes"
                     id="location;Masturah_Dunes"
                     data-rank=" 2 "
+                    data-filter=".Masturah_Dunes"
                   >
                     Masturah Dunes
                   </button>
 
                   <button
-                    class="btn btn-primary plant-category filter-button"
+                    class="btn btn-primary plant-category filter-btn"
                     id="location;Potato_Rock"
                     data-rank=" 2 "
+                    data-filter=".Potato_Rock"
                   >
                     Potato Rock
                   </button>
 
                   <button
-                    class="btn btn-primary plant-category filter-button Saudi_Arabia KAUST"
+                    class="btn btn-primary plant-category filter-btn Saudi_Arabia KAUST"
                     id="location;KAUST"
                     data-rank=" 2 "
+                    data-filter=".KAUST"
                   >
                     KAUST
                   </button>
@@ -126,65 +127,25 @@
             </div>
           </div>
 
-          <div class="col-md-2 accordion accordion-flush" id="accordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-heading">
-                <button
-                  class="accordion-button collapsed about"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapse"
-                  aria-expanded="false"
-                  aria-controls="flush-collapse"
-                  id=""
-                >
-                  <span>Sort By</span>
-                </button>
-              </h2>
-              <div
-                id="flush-collapse"
-                class="accordion-collapse collapse"
-                aria-labelledby="flush-heading"
-              >
-                <div class="accordion-body filters">
-                  <button
-                    class="btn btn-primary plant-category sort-button"
-                    id="name"
-                  >
-                    Name
-                  </button>
-
-                  <button
-                    class="btn btn-primary plant-category sort-button"
-                    id="country"
-                  >
-                    Country
-                  </button>
-
-                  <button
-                    class="btn btn-primary plant-category sort-button"
-                    id="location"
-                  >
-                    Location
-                  </button>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-2">
+            <button
+              class="btn btn-primary plant-category reset-btn"
+              data-filter="*"
+            >
+              Reset Filter
+            </button>
           </div>
         </div>
 
-        <div
-          class="row row-cols-2 row-cols-sm-4 row-cols-md-6 iso_grid"
-          id="plant-content"
-        ></div>
+        <div class="isogrid" id="plant-content"></div>
       </div>
       <footer>
         <hr class="footer" />
         <span style="font-size: small">
-          <a class="link" href="https://github.com/Nordegraf">Imprint</a>&nbsp;
-          <a class="link" href="https://gitlab.com/nordegraf"
-            >Privacy Statement</a
-          >&nbsp; </span
+          <a class="link" href="/imprint">Imprint</a>&nbsp;
+          <a class="link" href="/privacy">Privacy Statement</a>&nbsp;
+          <a class="link" href="/license">License</a>&nbsp;
+          <a class="link" href="/contact">Contact</a> </span
         ><br />
         <span style="font-size: small">
           &copy; Copyright 2023 Niklas Conen&nbsp;
