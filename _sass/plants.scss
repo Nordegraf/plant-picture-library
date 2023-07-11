@@ -219,3 +219,18 @@ iframe.plant-map {
 a.plant {
     padding: 0;
 }
+
+a.plink {
+    color: $primary;
+    text-decoration: none;
+}
+
+a.plink:hover {
+    color: $secondary;
+    text-decoration: underline;
+}
+
+span.highlight {
+    text-decoration: underline;
+    color: $subheadlines;
+}
