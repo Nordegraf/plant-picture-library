@@ -24,7 +24,7 @@ module Plants
 
         # emplace merged pages into default layout
         @document.content = rendered
-        @document.data['layout'] = 'default'
+        @document.data['layout'] = 'plant_default'
         @document.data['title'] = @plants.first.data['name']
         @document.data['render_with_liquid'] = false
 
