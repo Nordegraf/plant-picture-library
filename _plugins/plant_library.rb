@@ -1,5 +1,6 @@
 require 'uri'
 require 'json'
+require 'mini_magick'
 
 
 module Plants
@@ -100,7 +101,8 @@ module Plants
           'plant' => plant,
           'style' => '/assets/css/plants.css',
           'oid' => id,
-          'name' => plant.data['name']
+          'name' => plant.data['name'],
+          'thumb' => "/assets/img/plants/thumbs/" + File.basename(plant.data['images'][0]["path"])
         }
       end
 
@@ -164,6 +166,26 @@ module Plants
           page = PlantThumbPage.new(site, site.source, '/plants/', i, doc)
           site.pages << page
         end
+
+        Jekyll.logger.info "Plant Picture Library:" , "Generated Plant Thumbnails"
+      end
+    end
+
+    # hook to reduce image size for thumbnails
+    Jekyll::Hooks.register :site, :post_write do |site|
+      # remove temporary directory
+      thumbdir = "/assets/img/plants/thumbs/"
+      # reduce images
+      for doc in site.collections['plants'].docs
+        # get only the first images name without directory
+        imgfile = doc.data['images'][0]['path']
+        image = MiniMagick::Image.open(imgfile)
+        image.resize("500x500")
+
+        thumbfile = site.dest + thumbdir + File.basename(imgfile)
+        # create directory for temporary storage
+        FileUtils.mkdir_p(site.dest + thumbdir)
+        image.write(thumbfile)
       end
     end
 end
