@@ -35,7 +35,7 @@ function addPlants(attr, value, plants) {
 }
 
 function addPlant(id) {
-  return $.get("/plant-picture-library//plants/"+id+".html", function(data) {
+  return $.get("/plant-picture-library/plants/"+id+".html", function(data) {
     $("#plant-content").append(data);
   }).promise();
 }
