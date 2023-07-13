@@ -1,14 +1,6 @@
 <footer>
     <hr class="footer">
-      <span style="font-size: small;">
-        <a class="link" href="/imprint">Imprint</a>&nbsp;
-        <a class="link" href="/privacy">Privacy Statement</a>&nbsp;
-        <a class="link" href="/license">License</a>&nbsp;
-        <a class="link" href="/contact">Contact</a>
-      </span><br>
-      <span style="font-size: small;">
-        &copy; Copyright {{ site.year }} Niklas Conen&nbsp;
-      </span>
+      {% include footer_links.html %}
       <script src="{{ "/assets/js/bootstrap.bundle.min.js" | relative_url }}"></script>
       <script src="{{ "/assets/js/jquery-3.7.0.min.js" | relative_url }}"></script>
       <script src="{{ "/assets/js/isotope.pkgd.min.js" | relative_url }}"></script>
