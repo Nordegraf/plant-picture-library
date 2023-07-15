@@ -2,20 +2,20 @@
 Website to manage pictures me and my friends take.
 
 # How to add Plant Observations
-Plant, or rather single observations of a species, are organised within the _plants directory.
+Plant, or rather single observations of a species, are organised within the _plants directory. A template is given in the [_templates/observation.md](_templates/observation.md) file.
 
 An observation has following required and optional front matter attributes:
 
-| required/optional | attribute | description                                                                                       |
+| required/optional | attribute | description                                                                                               |
 |----------|-------------|------------------------------------------------------------------------------------------------------------------|
 | required | name        | If possible a common name of the species, if no common name is availabe, then this should be the scientific name |
 | optional | scientific  | Scientific name of the specie, if not already given in the name attribute                                        |
-| optional | synonyms    | List of name synonyms of the species                                                                             |
+| optional | synonyms    | YAML List of name synonyms of the species.                                                                       |
 | optional | german      | German name of the species                                                                                       |
 | required | country     | Country where the plant was observed                                                                             |
 | required | location    | Location where the plant was observed                                                                            |
 | required | date        | Date when the plant was observed                                                                                 |
-| required | images      | List of images of the plant. Each image must have the following attributes:                                      |
+| required | images      | YAML List of images of the plant. Each image must have the following attributes:                                 |
 |          |             | path: Path to the image file                                                                                     |
 |          |             | alt: Alternative text for the image                                                                              |
 |          |             | description: Description of the image                                                                            |
@@ -27,4 +27,4 @@ The content of the page will be rendered inside a notes section. They may contai
 
 The Layout of every observation is set to 'plant' and the title of a page is set to the name of the plant, through this pages [Ruby plugin](_plugins/plant_library.rb), so no need to set them manually.
 
-If a single species is observed multiple times, then the observations will be merged into one page. Multiple Observations are welcome, but should at least bring some kind of new information, like a new location, new notes, different dates etc. 
+If a single species is observed multiple times, then the observations will be merged into one page. Multiple Observations are welcome, but should at least bring some kind of new information, like a new location, new notes, different dates etc.
