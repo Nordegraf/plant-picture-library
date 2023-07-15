@@ -48,7 +48,7 @@ module Plants
         @ext = ".html"
 
         @dir = dir + name + ext
-        @dir.gsub!(' ', '_')
+        @dir.gsub!(' ', '-')
         @dir.downcase!
 
         @tags = []
@@ -152,6 +152,12 @@ module Plants
 
           page = PlantPage.new(site, site.source, '/plants/', doc.data['name'], same_plants)
           site.pages << page
+
+          # values for xml feed
+          doc.data['image'] = doc.data['images'][0]['path']
+          if doc.data['excerpt'].nil?
+            doc.data['excerpt'] = doc.content[0..1000]
+          end
         end
 
         Jekyll.logger.info "Plant Picture Library:" , "Generated Plant Picture Library"

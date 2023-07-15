@@ -18,6 +18,7 @@ sass:
   style: compressed
 
 feed:
+  excerpt_only: true
   collections:
     - plants
 
