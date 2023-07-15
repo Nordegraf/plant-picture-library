@@ -1,16 +1,16 @@
 ---
-layout: plant
 name: Tribulus macropterus var. arabicus
 german: Arabischer Burzeldorn
 location: Wadi ad-Dawasir
 country: Saudi Arabia
+coordinates: 20.456740229979363, 44.85280383937988
 date: 25.03.2023
 images:
     - path: assets/img/plants/saudi_arabia/tribulus_arabicus/tribulus_arabicus_1.jpg
       alt: Tribulus arabicus at Wadi ad-Dawasir
       description: Tribulus arabicus at Wadi ad-Dawasir
 by: Rebekka Pech
-coordinates: 20.456740229979363, 44.85280383937988
+author: Niklas Conen
 ---
 
 This picture was sent to me by Rebekka after a trip through the <a class="plink" href="https://en.wikipedia.org/wiki/Rub%27_al_Khali">Rub' al Khali</a>, or Empty Quarter.

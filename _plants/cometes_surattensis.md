@@ -1,5 +1,4 @@
 ---
-layout: plant
 name: Cometes surattensis
 location: Al-Wa bah Crater
 country: Saudi Arabia

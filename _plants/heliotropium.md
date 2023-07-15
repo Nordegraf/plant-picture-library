@@ -1,5 +1,4 @@
 ---
-layout: plant
 name: Heliotropium
 location: Masturah Dunes
 country: Saudi Arabia
