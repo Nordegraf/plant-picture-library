@@ -3,7 +3,7 @@ layout: default
 title: GNU GENERAL PUBLIC LICENSE
 ---
 
-The Website's source code can be found on <a class="plink" href="https://github.com/Nordegraf/plant-picture-library">GitHub</a> and is licensed under the GNU General Public License v3.0:
+The website's source code is open sourced on <a class="plink" href="https://github.com/Nordegraf/plant-picture-library">GitHub</a> and is licensed under the GNU General Public License v3.0
 
 ``````
                     GNU GENERAL PUBLIC LICENSE
