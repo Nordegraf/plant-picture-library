@@ -17,6 +17,8 @@ module Plants
         rendered = ""
         for plant in @plants
           @document = plant
+          # layout must be set here, to quarantee correct rendering
+          @document.data['layout'] = 'plant'
           rendered += super
           if plant != @plants.last
             rendered += "<hr>"
@@ -151,7 +153,6 @@ module Plants
           end
 
           doc.data['title'] = doc.data['name']
-          doc.data['layout'] = 'plant'
 
           page = PlantPage.new(site, site.source, '/plants/', doc.data['name'], same_plants)
           site.pages << page
