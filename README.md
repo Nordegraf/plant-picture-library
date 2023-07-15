@@ -1,5 +1,5 @@
 # plant-picture-library
-Website to manage pictures me and my friends take.
+Website to manage pictures my friends an I take of plants.
 
 # How to add Plant Observations
 Plant, or rather single observations of a species, are organised within the _plants directory. A template is given in the [_templates/observation.md](_templates/observation.md) file.
