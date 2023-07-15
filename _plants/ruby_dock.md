@@ -1,5 +1,4 @@
 ---
-layout: plant
 name: Ruby Dock
 scientific: Rumex vesicarius
 synonyms:

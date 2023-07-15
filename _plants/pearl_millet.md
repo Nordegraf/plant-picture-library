@@ -1,5 +1,4 @@
 ---
-layout: plant
 name: Pearl Millet
 location: Masturah Dunes
 country: Saudi Arabia

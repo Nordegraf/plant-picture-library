@@ -150,6 +150,9 @@ module Plants
             end
           end
 
+          doc.data['title'] = doc.data['name']
+          doc.data['layout'] = 'plant'
+
           page = PlantPage.new(site, site.source, '/plants/', doc.data['name'], same_plants)
           site.pages << page
 

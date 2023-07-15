@@ -1,5 +1,4 @@
 ---
-layout: plant
 name: Ixora coccinea
 german: Malteserkreuzblume
 location: KAUST

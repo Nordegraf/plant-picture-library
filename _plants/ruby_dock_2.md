@@ -1,5 +1,4 @@
 ---
-layout: plant
 name: Ruby Dock
 location: Al-Wa bah Crater
 country: Saudi Arabia

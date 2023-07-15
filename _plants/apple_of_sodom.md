@@ -1,6 +1,4 @@
 ---
-layout: plant
-title: Apple of Sodom
 name: Apple of Sodom
 scientific: Calotropis procera (Aiton) W.T. Aiton
 german: Sodomsapfel

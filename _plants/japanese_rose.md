@@ -1,5 +1,4 @@
 ---
-layout: plant
 name: Japanese rose
 scientific: Rosa Rugosa
 synonyms:
