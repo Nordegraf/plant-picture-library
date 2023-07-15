@@ -13,6 +13,5 @@ images:
       alt: Japanese Rose at Sylt
       description: Japanese Rose at a Beach in Sylt
 coordinates: 54.81448667, 8.28519500
+by: Sandra Jeschka
 ---
-
-Japanese Rose
