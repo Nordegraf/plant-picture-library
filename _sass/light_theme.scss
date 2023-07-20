@@ -1,0 +1,109 @@
+$primary: rgb(0, 163, 27);
+$bg_light: rgb(247, 247, 247);
+
+$plant-border: rgb(124, 124, 124);
+
+body {
+    background-color: $bg_light;
+}
+
+.navbar {
+    border-bottom: 3px solid $primary;
+}
+
+hr.footer {
+    border: 3px solid $primary;
+    border-top: 0px;
+}
+
+h3, h5 {
+    color: $primary;
+}
+
+a.flink {
+    color: $primary;
+}
+
+h2.nav {
+    color: $primary;
+}
+
+.grid-item-profile {
+    border: 2px solid $primary;
+}
+
+.grid-item-notes {
+    border: 2px solid $primary;
+}
+
+.clicked {
+    background-color: $primary !important;
+    color: $bg_light !important;
+    border: $bg_light 1px solid;
+}
+
+a.plink {
+    color: $primary;
+}
+
+a.plink:hover {
+    color: $primary;
+}
+
+a.nav {
+    color: $primary;
+    text-decoration: none;
+}
+
+a.nav:hover {
+    color: $primary;
+}
+
+.plant-container {
+    border: 1px solid $plant-border;
+}
+
+.element-item {
+    background-color: $primary;
+}
+
+.btn-primary {
+    color: $primary;
+    background-color: $primary;
+    border-color: $primary;
+    background-color: $bg_light;
+}
+
+.btn-primary:hover {
+    color: $primary;
+    background-color: darken($bg_light, 5%);
+    border-color: $primary;
+}
+
+.accordion-button.filter {
+    color: $primary;
+}
+
+p {
+    color: black;
+}
+
+button.accordion-button {
+    background-color: $bg_light;
+}
+
+.accordion-body {
+    background-color: $bg_light;
+}
+
+h2.accordion-header {
+    background-color: $bg_light;
+}
+
+ul {
+    color: black;
+}
+
+li {
+    color: black;
+}
