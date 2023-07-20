@@ -1,0 +1,119 @@
+$bg_dark: rgb(32, 32, 40);
+$text_dark: rgb(199, 199, 199);
+
+$plant-border-dark: rgb(56, 56, 56);
+
+
+@media (prefers-color-scheme: dark) {
+
+body {
+    background-color: $bg_dark;
+}
+
+.navbar {
+    border-bottom: 3px solid $primary;
+}
+
+hr.footer {
+    border: 3px solid $primary;
+    border-top: 0px;
+}
+
+h1, h3, h5 {
+    color: $primary;
+}
+
+a.flink {
+    color: $primary;
+}
+
+h2.nav {
+    color: $primary;
+}
+
+.grid-item-profile {
+    border: 2px solid $primary;
+}
+
+.grid-item-notes {
+    border: 2px solid $primary;
+}
+
+.clicked {
+    background-color: $primary !important;
+    color: $bg_dark !important;
+    border: $bg_dark 1px solid;
+}
+
+a.plink {
+    color: $primary;
+}
+
+a.plink:hover {
+    color: $primary;
+}
+
+a.nav {
+    color: $primary;
+    text-decoration: none;
+}
+
+a.nav:hover {
+    color: $primary;
+}
+
+.plant-container {
+    border: 1px solid $plant-border;
+}
+
+.element-item {
+    background-color: $primary;
+}
+
+.btn-primary {
+    color: $primary;
+    background-color: $primary;
+    border-color: $primary;
+    background-color: $bg_dark;
+}
+
+.btn-primary:hover {
+    color: $primary;
+    background-color: lighten($bg_dark, 5%);
+    border-color: $primary;
+}
+
+.accordion-button.filter {
+    color: $primary;
+}
+
+p {
+    color: $text_dark;
+}
+
+button.accordion-button {
+    background-color: $bg_dark;
+}
+
+.accordion-body {
+    background-color: $bg_dark;
+}
+
+h2.accordion-header {
+    background-color: $bg_dark;
+}
+
+.accordion {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+ul {
+    color: $text_dark;
+}
+
+li {
+    color: $text_dark;
+}
+
+}
