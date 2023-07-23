@@ -49,9 +49,13 @@ module Plants
         @base = base
         @ext = ".html"
 
-        @dir = dir + name + ext
-        @dir.gsub!(' ', '-')
-        @dir.downcase!
+        @url = "" + name
+        @url.gsub!(' ', '-')
+        @url.gsub!('.', '')
+        @url.downcase!
+        @url = @url + @ext
+
+        @dir = dir + @url
 
         @tags = []
 
@@ -68,6 +72,7 @@ module Plants
         # therefore add tags to all plants
         @plants.each do |plant|
           plant.data['tags'] = @tags
+          plant.data['purl'] = @url
         end
 
         @data = {
@@ -140,9 +145,6 @@ module Plants
         for attr in site.data["filter_attributes"]
           site.data["filter_values"][attr] = site.collections['plants'].docs.map { |doc| doc.data[attr] }.uniq.compact
         end
-
-        Jekyll.logger.info "Plant Picture Library:" , site.data["filter_attributes"].to_s
-        Jekyll.logger.info "Plant Picture Library:" , site.data["filter_values"].to_s
 
         # render all plant pages
         site.collections['plants'].docs.each_with_index do |doc, i|

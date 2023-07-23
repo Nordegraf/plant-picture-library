@@ -1,6 +1,7 @@
 ---
 name:
 scientific:
+variant:
 synonyms:
     -
     -
