@@ -1,5 +1,6 @@
 ---
-name: Tribulus macropterus var. arabicus
+name: Tribulus macropterus
+variety: Tribulus macropterus var. arabicus
 german: Arabischer Burzeldorn
 location: Wadi ad-Dawasir
 country: Saudi Arabia
