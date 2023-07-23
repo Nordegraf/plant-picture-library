@@ -51,6 +51,7 @@ plant_attributes:
   # place is defined by country => location
   place:
     - country
+    - city
     - location
   #taxonomy:
   #  - group

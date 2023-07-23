@@ -2,6 +2,7 @@
 name: Ixora coccinea
 german: Malteserkreuzblume
 location: KAUST
+city: Thuwal
 country: Saudi Arabia
 date: 13.04.2023
 images:
