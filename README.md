@@ -13,6 +13,7 @@ An observation has following required and optional front matter attributes:
 | optional | synonyms    | YAML List of name synonyms of the species.                                                                       |
 | optional | german      | German name of the species                                                                                       |
 | required | country     | Country where the plant was observed                                                                             |
+| optional | city        | City where the plant was observed                                                                                |
 | required | location    | Location where the plant was observed                                                                            |
 | required | date        | Date when the plant was observed                                                                                 |
 | required | images      | YAML List of images of the plant. Each image must have the following attributes:                                 |
