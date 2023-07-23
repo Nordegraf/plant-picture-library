@@ -8,7 +8,7 @@ layout: default
 * <a class="plink" href="https://www.inaturalist.org/">iNaturalist</a>
 * <a class="plink" href="https://www.gbif.org/">GBIF</a>
 * <a class="plink" href="https://eol.org">Encyclopedia of Life (EOL)</a>
-* <a class="plink" href="www.itis.gov/">Integrated Taxonomic Information System (ITIS)</a>
+* <a class="plink" href="https://www.itis.gov/">Integrated Taxonomic Information System (ITIS)</a>
 * <a class="plink" href="https://naturgucker.de/">Naturgucker.de</a>
 
 ### Region specific sites

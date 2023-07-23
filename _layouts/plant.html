@@ -51,7 +51,9 @@
         {% endif %}
         {% if page.synonyms %}
         <h5>Synonyms</h5>
-        <p>{{ page.synonyms }}</p>
+        {% for syn in page.synonyms %}
+        <p>{{ syn }}</p>
+        {% endfor %}
         {% endif %}
         {% if page.german %}
         <h5>German Name</h5>
