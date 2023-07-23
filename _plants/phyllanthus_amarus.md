@@ -2,6 +2,7 @@
 name: Phyllanthus amarus
 synonyms: gale of the wind, carry me seed, seed on the leaf
 location: KAUST
+city: Thuwal
 country: Saudi Arabia
 date: 14.04.2023
 images:

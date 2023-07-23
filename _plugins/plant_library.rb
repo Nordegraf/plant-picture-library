@@ -138,8 +138,11 @@ module Plants
         end
 
         for attr in site.data["filter_attributes"]
-          site.data["filter_values"][attr] = site.collections['plants'].docs.map { |doc| doc.data[attr] }.uniq
+          site.data["filter_values"][attr] = site.collections['plants'].docs.map { |doc| doc.data[attr] }.uniq.compact
         end
+
+        Jekyll.logger.info "Plant Picture Library:" , site.data["filter_attributes"].to_s
+        Jekyll.logger.info "Plant Picture Library:" , site.data["filter_values"].to_s
 
         # render all plant pages
         site.collections['plants'].docs.each_with_index do |doc, i|
@@ -189,6 +192,11 @@ module Plants
       for doc in site.collections['plants'].docs
         # get only the first images name without directory
         imgfile = doc.data['images'][0]['path']
+        # append full path
+        if !imgfile.start_with?('/')
+          imgfile = '/' + imgfile
+        end
+        imgfile = site.source + imgfile
         image = MiniMagick::Image.open(imgfile)
         image.resize("500x500")
 
