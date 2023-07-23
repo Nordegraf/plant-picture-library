@@ -51,8 +51,14 @@
         {% endif %}
         <h5>Country</h5>
         <p>{{ page.country }}</p>
+        {% if page.city %}
+        <h5>City</h5>
+        <p>{{ page.city }}</p>
+        {% endif %}
+        {% if page.location %}
         <h5>Location</h5>
         <p>{{ page.location }}</p>
+        {% endif %}
         {% if page.coordinates %}
         {% capture zoom %}10{% endcapture %}
         {% capture lat %}{{ page.coordinates | split: ',' | first | replace: " ", "" }}{% endcapture %}
