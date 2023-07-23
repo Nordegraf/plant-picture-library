@@ -159,10 +159,10 @@
     
       {
         "id": "9",
-        "name": "Tagetes erecta"
+        "name": "Salvia splendens"
         
             
-            ,"country": ["germany"]
+            ,"country": ["Germany"]
             
         
             
@@ -170,7 +170,7 @@
             
         
             
-            ,"location": ["Kongresszentrum"]
+            ,"location": ["Stadtgarten"]
             
         
       }
@@ -178,7 +178,7 @@
     
       {
         "id": "10",
-        "name": "Zinnia elegans"
+        "name": "Tagetes erecta"
         
             
             ,"country": ["Germany"]
@@ -197,6 +197,25 @@
     
       {
         "id": "11",
+        "name": "Zinnia elegans"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Karlsruhe"]
+            
+        
+            
+            ,"location": ["Kongresszentrum"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "12",
         "name": "Malva sylvestris L."
         
             
