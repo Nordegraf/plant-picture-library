@@ -4,7 +4,7 @@ synonyms:
     - Mexican marigold
     - French marigold
 german: Aufrechte Studentenblume
-country: germany
+country: Germany
 city: Karlsruhe
 location: Kongresszentrum
 coordinates: 49.00240524252521, 8.402913574103959
