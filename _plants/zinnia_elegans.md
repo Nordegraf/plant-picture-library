@@ -1,0 +1,27 @@
+---
+name: Zinnia elegans
+synonyms:
+    - Garden Zinnia
+german: Garten Zinnie
+location: Kongresszentrum
+city: Karlsruhe
+country: Germany
+coordinates: 49.00240741737028, 8.402878661666952
+date: 15.07.2023
+by: Niklas Conen
+author: Niklas Conen
+images:
+    - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_1.jpg
+      alt: Flower of Zinnia elegans
+      description: Flower of Zinnia elegans
+    - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_2.jpg
+      alt: Zinnia elegans plant with multiple flowers
+      description: Zinnia elegans plant with multiple flowers
+    - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_3.jpg
+      alt: Zinnia elegans plant with multiple flowers
+      description: Zinnia elegans plant with multiple flowers
+---
+
+The city of Karlsruhe has multiple flower beds across the inner city they plant with various colorful assortments of flowers multiple times a year. They are always really beautiful and intereseting to look at.
+
+Zinnia elegans originally was native to Mexico, but has become a popular ornamental plant in many parts of the world.

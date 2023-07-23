@@ -5,8 +5,9 @@ synonyms:
     -
     -
 german:
-location:
 country:
+city:
+location:
 coordinates:
 date:
 by:
