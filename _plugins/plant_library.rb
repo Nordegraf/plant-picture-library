@@ -188,13 +188,11 @@ module Plants
 
     # hook to reduce image size for thumbnails
     Jekyll::Hooks.register :site, :post_write do |site|
-      # remove temporary directory
       thumbdir = "/assets/img/plants/thumbs/"
-      # reduce images
+
       for doc in site.collections['plants'].docs
-        # get only the first images name without directory
         imgfile = doc.data['images'][0]['path']
-        # append full path
+
         if !imgfile.start_with?('/')
           imgfile = '/' + imgfile
         end
@@ -203,7 +201,6 @@ module Plants
         image.resize("500x500")
 
         thumbfile = site.dest + thumbdir + File.basename(imgfile)
-        # create directory for temporary storage
         FileUtils.mkdir_p(site.dest + thumbdir)
         image.write(thumbfile)
       end
