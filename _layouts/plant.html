@@ -35,11 +35,19 @@
     <div class="grid-item grid-item-profile">
         <h5>Date of Observation</h5>
         <p>{{ page.date | date: "%B %-d, %Y" }}</p>
+        {% if page.name and page.scientific != "" %}
+        <h5>Name</h5>
+        {% else %}
         <h5>Common Name</h5>
+        {% endif %}
         <p>{{ page.name }}</p>
         {% if page.scientific and page.name != page.scientific %}
         <h5>Scientific Name</h5>
         <p>{{ page.scientific }}</p>
+        {% endif %}
+        {% if page.variety %}
+        <h5>Variety</h5>
+        <p>{{ page.variety }}</p>
         {% endif %}
         {% if page.synonyms %}
         <h5>Synonyms</h5>
