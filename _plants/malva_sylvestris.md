@@ -16,4 +16,4 @@ images:
       description: Close up of flowers of Malva sylvestris
 ---
 
-This specimen grew on a small patch of dirt near a parking space close in front of the St.Vincentus Kliniken in Karlsruhe's Südweststadt. It is between 1m and 1.30m tall. The pedal shape and color and the singular green stem this ist most likely common mallow, malva sylvestris L.
+This specimen grew on a small patch of dirt near a parking space in front of the St.Vincentus Kliniken in Karlsruhe's Südweststadt. It is between 1m and 1.30m tall. The pedal shape and color and the singular green stem indicate, that this is most likely malva sylvestris L., the common mallow.
