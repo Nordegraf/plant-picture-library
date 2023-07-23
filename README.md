@@ -10,7 +10,7 @@ An observation has following required and optional front matter attributes:
 |----------|-------------|------------------------------------------------------------------------------------------------------------------|
 | required | name        | If possible a common name of the species, if no common name is availabe, then this should be the scientific name |
 | optional | scientific  | Scientific name of the specie, if not already given in the name attribute                                        |
-| optional | variant     | Variant of the species, if not already given in the name attribute                                               |
+| optional | variety     | Variety of the species, if not already given in the name attribute                                               |
 | optional | synonyms    | YAML List of name synonyms of the species.                                                                       |
 | optional | german      | German name of the species                                                                                       |
 | required | country     | Country where the plant was observed                                                                             |

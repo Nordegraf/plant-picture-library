@@ -1,7 +1,7 @@
 ---
 name:
 scientific:
-variant:
+variety:
 synonyms:
     -
     -
