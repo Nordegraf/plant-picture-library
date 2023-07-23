@@ -18,14 +18,14 @@ $(window).on("resize", function () {
 });
 
 function resize_grid_items() {
-    $grid = $('.masongrid');
+    $('.masongrid').each(function () {
+        imgHeight = $(this).find('.grid-item-carousel').height();
+        proHeight = $(this).find('.grid-item-profile').height();
 
-    imgHeight = $grid.find('.grid-item-carousel').height();
-    proHeight = $grid.find('.grid-item-profile').height();
-
-    if (imgHeight > proHeight || imgHeight/proHeight > 0.80) {
-        $('.grid-item-notes').css('width', '100%');
-    } else {
-        $('.grid-item-notes').css('width', 'calc(60% - 10px)');
-    }
+        if (imgHeight > proHeight || imgHeight/proHeight > 0.80) {
+            $(this).find('.grid-item-notes').css('width', '100%');
+        } else {
+            $(this).find('.grid-item-notes').css('width', 'calc(60% - 10px)');
+        }
+    });
 }
