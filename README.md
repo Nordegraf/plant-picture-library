@@ -8,8 +8,8 @@ An observation has following required and optional front matter attributes:
 
 | required/optional | attribute | description                                                                                               |
 |----------|-------------|------------------------------------------------------------------------------------------------------------------|
-| required | name        | If possible a common name of the species, if no common name is availabe, then this should be the scientific name |
-| optional | scientific  | Scientific name of the specie, if not already given in the name attribute                                        |
+| required | name        | Scientific name of the species                                                                                   |
+| optional | common      | Common name of the species                                                                                       |
 | optional | variety     | Variety of the species, if not already given in the name attribute                                               |
 | optional | synonyms    | YAML List of name synonyms of the species.                                                                       |
 | optional | german      | German name of the species                                                                                       |
@@ -21,12 +21,12 @@ An observation has following required and optional front matter attributes:
 |          |             | path: Path to the image file                                                                                     |
 |          |             | alt: Alternative text for the image                                                                              |
 |          |             | description: Description of the image                                                                            |
-| optional | by          | Name of the person who took the pictures                                                                         |
+| required | by          | Name of the person who took the pictures                                                                         |
 | optional | author      | Name of the person who identified the plant or wrote the notes                                                   |
 | optional | coordinates | Coordinates of the location of the observation                                                                   |
 | optional | sources     | YAML List of sources for the observation. Each source must have the following attributes:                        |
 |          |             | name: Name of the source                                                                                         |
-|          |             | url: URL to the source                                                                                            |
+|          |             | url: URL to the source                                                                                           |
 
 The content of the page will be rendered inside a notes section. They may contain stories about the observation, notes on the identification process, links to other resources, information about the observed species, its various uses or anything else that might be interesting. If no notes are given, no note section will be rendered. But I highly encourage you to write some notes. Links to additional webpages should be written in html with the ```plink```class (e.g. ```<a class="plink" href="..."> link </a>```)
 

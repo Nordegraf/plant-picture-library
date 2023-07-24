@@ -1,6 +1,6 @@
 ---
 name:
-scientific:
+common:
 variety:
 synonyms:
     -

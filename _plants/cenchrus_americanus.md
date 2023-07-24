@@ -1,15 +1,15 @@
 ---
-name: Pearl Millet
-scientific: Cenchrus americanus (L.) Morrone
+name: Cenchrus americanus (L.) Morrone
+common: Pearl Millet
 synonyme: Pennisetum glaucum (L.) R.Br.
 location: Masturah Dunes
 country: Saudi Arabia
 date: 01.04.2023
 images:
-    - path: assets/img/plants/saudi_arabia/pearl_millet/pearl_millet_1.jpg
+    - path: assets/img/plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_1.jpg
       alt: Pearl Millet
       description: Pearl Millet
-    - path: assets/img/plants/saudi_arabia/pearl_millet/pearl_millet_2.jpg
+    - path: assets/img/plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_2.jpg
       alt: Pearl Millet
       description: Pearl Millet
 coordinates: 23.41828100224373, 38.95569383769491

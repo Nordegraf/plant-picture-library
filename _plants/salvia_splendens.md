@@ -1,7 +1,6 @@
 ---
 name: Salvia splendens
-synonyms:
-    - Scarlet Sage
+common: Scarlet Sage
 german: Feuersalbei
 country: Germany
 city: Karlsruhe
