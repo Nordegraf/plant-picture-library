@@ -12,6 +12,15 @@ images:
     - path: assets/img/plants/germany/malva_sylvestris/malva_sylvestris_2.jpg
       alt: Picture of Malva sylvestris var. mauritiana
       description: juvenile malva sylvestris var. mauritiana plant
+sources:
+    - name: malvaceae.info
+      url: http://www.malvaceae.info/Genera/Lavatera/arborea.html
+    - name: GBIF
+      url: https://www.gbif.org/species/6285889
+    - name: iNaturalist
+      url: https://www.inaturalist.org/observations?place_id=any&taxon_id=359171
+    - name: Naturgucker.de
+      url: https://naturgucker.de/?art=894402989
 ---
 
 This beautiful plant was found close to the Mosel river in Ürzig, Germany.

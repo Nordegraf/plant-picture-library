@@ -14,6 +14,9 @@ images:
     - path: assets/img/plants/germany/salvia_splendens/salvia_splendens_1.jpg
       alt: Salvia splendens plant
       description: A Salvia splendens plant with bright red flowers
+sources:
+    - name: Wikipedia
+      url: https://en.wikipedia.org/wiki/Salvia_splendens
 ---
 
 Scarlet Sage is native to Brazil, but is grown as ornamental plant all around the world. The native type grows in altitudes between 2000m and 3000m and can reach a height of up to 1.3m. In cultivation it usually grows much smaller, like this specimen in front of the north entry of the Zoologischer Stadtgarten in Karlsruhe.

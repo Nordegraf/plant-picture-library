@@ -93,6 +93,15 @@
     <div class="grid-item grid-item-notes">
         <h3>Notes</h3>
         {{ page.content }}
+
+        {% if page.sources %}
+        <h5>Sources</h5>
+        <ul>
+            {% for source in page.sources %}
+            <li><a href="{{ source.url }}">{{ source.name }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
     </div>
     {% endif %}
 </div>

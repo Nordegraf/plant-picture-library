@@ -20,4 +20,9 @@ images:
     - path:
       alt:
       description:
+sources:
+    - name:
+      url:
+    - name:
+      url:
 ---

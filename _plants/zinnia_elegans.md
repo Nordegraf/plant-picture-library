@@ -20,6 +20,9 @@ images:
     - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_3.jpg
       alt: Zinnia elegans plant with multiple flowers
       description: Zinnia elegans plant with multiple flowers
+sources:
+    - name: Wikipedia
+      url: https://en.wikipedia.org/wiki/Zinnia_elegans
 ---
 
 The city of Karlsruhe has multiple flower beds across the inner city they plant with various colorful assortments of flowers multiple times a year. They are always really beautiful and intereseting to look at.
