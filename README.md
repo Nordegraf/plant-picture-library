@@ -24,6 +24,9 @@ An observation has following required and optional front matter attributes:
 | optional | by          | Name of the person who took the pictures                                                                         |
 | optional | author      | Name of the person who identified the plant or wrote the notes                                                   |
 | optional | coordinates | Coordinates of the location of the observation                                                                   |
+| optional | sources     | YAML List of sources for the observation. Each source must have the following attributes:                        |
+|          |             | name: Name of the source                                                                                         |
+|          |             | url: URL to the source                                                                                            |
 
 The content of the page will be rendered inside a notes section. They may contain stories about the observation, notes on the identification process, links to other resources, information about the observed species, its various uses or anything else that might be interesting. If no notes are given, no note section will be rendered. But I highly encourage you to write some notes. Links to additional webpages should be written in html with the ```plink```class (e.g. ```<a class="plink" href="..."> link </a>```)
 

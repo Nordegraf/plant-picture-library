@@ -15,6 +15,11 @@ images:
     - path: assets/img/plants/germany/tagetes_erecta/tagetes_erecta_1.jpg
       alt: Tagetes erecta plant
       description: A Tagetes erecta plant with bright orange flowers
+sources:
+    - name: ITIS
+      url: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=38488#null
+    - name: PlantNet
+      url: https://identify.plantnet.org/de
 ---
 
 This could also be identified as tagetes patula, which grows smaller than tagetes erecta. However tagetes patula is not recognized as an own species by some taxonomy authorities. The <a class="plink" href="https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=38488#null">ITIS database</a> for example lists it as a synonym for tagetes erecta.
