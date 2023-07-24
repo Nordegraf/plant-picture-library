@@ -1,7 +1,7 @@
 ---
 layout: empty
 ---
-<a class="element-item{% for tag in page.plant.tags %} {{ tag | replace: ' ', '_' }}{% endfor %}" href="{{ page.plant.purl | relative_url }}" id="{{ page.plant.oid }}">
+<a class="element-item{% for tag in page.plant.tags %} {{ tag | replace: ' ', '_' }}{% endfor %}" href="{{ page.plant.url | relative_url }}" id="{{ page.plant.oid }}">
   <div class="plant-container">
     <div class="image-container">
       <img src="{{ page.thumb | relative_url }}" alt="{{ page.plant.images[0].alt }}" class="image">
