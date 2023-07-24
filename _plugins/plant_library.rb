@@ -49,13 +49,7 @@ module Plants
         @base = base
         @ext = ".html"
 
-        @url = "" + name
-        @url.gsub!(' ', '-')
-        @url.gsub!('.', '')
-        @url.downcase!
-        @url = @url + @ext
-
-        @dir = dir + @url
+        @dir = dir + plants.first.basename_without_ext.gsub('_', '-') + ext
 
         @tags = []
 
