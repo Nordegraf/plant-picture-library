@@ -35,15 +35,11 @@
     <div class="grid-item grid-item-profile">
         <h5>Date of Observation</h5>
         <p>{{ page.date | date: "%B %-d, %Y" }}</p>
-        {% if page.name and page.scientific != "" %}
         <h5>Name</h5>
-        {% else %}
-        <h5>Common Name</h5>
-        {% endif %}
         <p>{{ page.name }}</p>
-        {% if page.scientific and page.name != page.scientific %}
-        <h5>Scientific Name</h5>
-        <p>{{ page.scientific }}</p>
+        {% if page.common %}
+        <h5>Common Name</h5>
+        <p>{{ page.common }}</p>
         {% endif %}
         {% if page.variety %}
         <h5>Variety</h5>
@@ -80,12 +76,8 @@
         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="plant-map" src="https://www.openstreetmap.org/export/embed.html?bbox={{ xmin }}%2C{{ ymax }}%2C{{ xmax }}%2C{{ ymin }}&amp;layer=mapnik&amp;marker={{ lat }}%2C{{ lon }}" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat={{ lat }}&amp;mlon={{ lon }}#map=17/{{ lat }}/{{ lon }}">show larger map</a></small>
         {% endif %}
 
-        <h5>Photo By</h5>
-        {% if page.by %}
+        <h5>Photo{% if page.images.size > 1 %}s{% endif %} By</h5>
         <p>{{ page.by}}</p>
-        {% else %}
-        <p>{{ site.author }}</p>
-        {% endif %}
     </div>
 
     {% assign cont = page.content | strip_html | strip_newlines %}
@@ -98,7 +90,7 @@
         <h5>Sources</h5>
         <ul>
             {% for source in page.sources %}
-            <li><a href="{{ source.url }}">{{ source.name }}</a></li>
+            <li><a class="plink" href="{{ source.url }}">{{ source.name }}</a></li>
             {% endfor %}
         </ul>
         {% endif %}
