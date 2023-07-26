@@ -1,4 +1,3 @@
-
 $(window).on("load", function () {
     resize_grid_items();
 

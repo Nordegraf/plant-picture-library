@@ -209,8 +209,9 @@ module Plants
 
     # hook to reduce image size for thumbnails during development
     Jekyll::Hooks.register :site, :post_write do |site|
-      # check if in development environment
       if Jekyll.env == 'development'
+        # if in development, use source directory
+        # otherwise the thumbnails would have to be generated every time the site is built
         thumbdir = site.source + "/assets/img/plants/thumbs/"
       else
         thumbdir = site.dest + "/assets/img/plants/thumbs/"
