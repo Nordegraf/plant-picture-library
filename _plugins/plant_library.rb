@@ -179,14 +179,11 @@ module Plants
           site.pages << page
         end
 
-        Jekyll.logger.info "Plant Picture Library:" , "Generated Plant Thumbnails"
+        Jekyll.logger.info "Plant Picture Library:" , "Generated Plant Thumbnail Pages"
       end
     end
 
-    # hook to reduce image size for thumbnails
-    Jekyll::Hooks.register :site, :post_write do |site|
-      thumbdir = site.source + "/assets/img/plants/thumbs/"
-
+    def self.generate_thumbnails(source, dest, site)
       for doc in site.collections['plants'].docs
         imgfile = doc.data['images'][0]['path']
 
@@ -194,19 +191,31 @@ module Plants
           imgfile = '/' + imgfile
         end
 
-        thumbfile = thumbdir + File.basename(imgfile)
+        thumbfile = dest + File.basename(imgfile)
 
-        # check if file already exists
+        # check if file already exists in source directory
         if File.exist?(thumbfile)
           next
         end
 
-        imgfile = site.source + imgfile
+        imgfile = source + imgfile
         image = MiniMagick::Image.open(imgfile)
         image.resize("500x500")
 
-        FileUtils.mkdir_p(thumbdir)
+        FileUtils.mkdir_p(dest)
         image.write(thumbfile)
       end
+    end
+
+    # hook to reduce image size for thumbnails during development
+    Jekyll::Hooks.register :site, :post_write do |site|
+      # check if in development environment
+      if Jekyll.env == 'development'
+        thumbdir = site.source + "/assets/img/plants/thumbs/"
+      else
+        thumbdir = site.dest + "/assets/img/plants/thumbs/"
+      end
+      generate_thumbnails(site.source, thumbdir, site)
+      Jekyll.logger.info "Plant Picture Library:" , "Generated Plant Thumbnails"
     end
 end
