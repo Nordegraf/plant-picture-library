@@ -16,7 +16,7 @@ hr.footer {
     border-top: 0px;
 }
 
-h3, h5 {
+h1, h2, h3, h4, h5 {
     color: $primary;
 }
 
@@ -102,4 +102,12 @@ ul {
 
 li {
     color: black;
+}
+
+table.names {
+    color: $primary;
+}
+
+table.taxonomy {
+    color: $black;
 }

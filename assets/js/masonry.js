@@ -19,7 +19,7 @@ $(window).on("resize", function () {
 function resize_grid_items() {
     $('.masongrid').each(function () {
         imgHeight = $(this).find('.grid-item-carousel').height();
-        proHeight = $(this).find('.grid-item-profile').height();
+        proHeight = $(this).find('.grid-item-observation').height();
 
         if (imgHeight > proHeight || imgHeight/proHeight > 0.75) {
             $(this).find('.grid-item-notes').css('width', '100%');

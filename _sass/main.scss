@@ -76,7 +76,7 @@ iframe.plant-map {
     margin: 0 0.25rem;
 }
 
-.grid-item-profile {
+.grid-item-observation {
     min-width: 200px;
     width: calc(40% - 0.5rem);
     height: fit-content;
@@ -96,7 +96,7 @@ iframe.plant-map {
         min-width: 100%;
     }
 
-    .grid-item-profile {
+    .grid-item-observation {
         width: calc(100% - 0.5rem);
         min-width: 100%;
         margin-top: 0.5rem;
@@ -228,6 +228,32 @@ hr.footer {
     padding: 0.5rem;
 }
 
-ol.taxonomy li::marker {
-    content: "▸";
+h5.subheadline {
+    font-size: small;
+}
+
+table.names {
+    font-size: 0.9em;
+}
+
+div.plant-names {
+    padding-left: 0.25rem;
+}
+
+hr {
+    margin: 0.5rem 0 !important;
+}
+
+table.taxonomy {
+    font-size: 1em;
+    margin-bottom: 1rem;
+}
+
+hr.taxonomy {
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem;
+}
+
+div.taxonomy {
+    margin: 0 0.25rem;
 }

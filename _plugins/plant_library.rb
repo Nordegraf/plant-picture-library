@@ -147,6 +147,7 @@ module Plants
         site.collections['plants'].docs.each_with_index do |doc, i|
           same_plants = []
           same_plants << doc
+          doc.data['characteristics'] = true
           for other_doc in site.collections['plants'].docs
             if other_doc.data['canonical'] == doc.data['canonical'] and other_doc != doc
               same_plants << other_doc

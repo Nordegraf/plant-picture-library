@@ -4,10 +4,10 @@
   <body>
     <div class="cont" style="max-width: 1100px">
       {% include navigation.html %}
-        <div class="cont">
+        <div>
           {{ content }}
-          <hr>
-          {% include gbif_citation.html %}
+          <hr class="taxonomy">
+          {% include taxonomy.html %}
         </div>
       {% include plant_footer.html %}
     </div>

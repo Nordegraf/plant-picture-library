@@ -1,7 +1,6 @@
 ---
 canonical: Malva sylvestris
-synonyms:
-    - Common mallow
+common: Common mallow
 german: Wilde Malve
 country: Germany
 city: Karlsruhe
