@@ -1,0 +1,33 @@
+<div class="plant-names">
+    <h4 style="margin-bottom: 0;">{{ page.canonical }}</h4>
+    <table class="names">
+        {% if page.scientific != page.canonical %}
+        <tr>
+            <td>scientific:</td>
+            <td>{{ page.scientific }}</td>
+        </tr>
+        {% endif %}
+        {% if page.common %}
+        <tr>
+            <td>common:</td>
+            <td>{{ page.common }}</td>
+        </tr>
+        {% endif %}
+        {% if page.synonyms %}
+        <tr>
+            <td>synonyms:&nbsp;&nbsp;</td>
+            <td>
+                {% for synonym in page.synonyms %}
+                {{ synonym }}{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+            </td>
+        </tr>
+        {% endif %}
+        {% if page.german %}
+        <tr>
+            <td>german:</td>
+            <td>{{ page.german }}</td>
+        </tr>
+        {% endif %}
+    </table>
+</div>

@@ -1,0 +1,54 @@
+<div class="taxonomy bordered">
+    <h5>Taxonomy</h5>
+    <table class="taxonomy">
+        <tr>
+            <td>▸</td>
+            <td>Kingdom: &nbsp; &nbsp;</td>
+            <td>{{ page.taxonomy.kingdom }}</td>
+        </tr>
+        <tr>
+            <td>▸</td>
+            <td>Phylum:</td>
+            <td>{{ page.taxonomy.phylum }}</td>
+        </tr>
+        <tr>
+            <td>▸</td>
+            <td>Class:</td>
+            <td>{{ page.taxonomy.class }}</td>
+        </tr>
+        <tr>
+            <td>▸</td>
+            <td>Order:</td>
+            <td>{{ page.taxonomy.order }}</td>
+        </tr>
+        <tr>
+            <td>▸</td>
+            <td>Family:</td>
+            <td>{{ page.taxonomy.family }}</td>
+        </tr>
+        <tr>
+            <td>▸</td>
+            <td>Genus:</td>
+            <td>{{ page.taxonomy.genus }}</td>
+        </tr>
+        <tr>
+            <td>▸</td>
+            <td>Species:</td>
+            <td>{{ page.taxonomy.species }}</td>
+        </tr>
+        {% if page.taxonomy.variety %}
+        <tr>
+            <td>▸</td>
+            <td>Variety:</td>
+            <td>{{ page.taxonomy.variety }}</td>
+        </tr>
+        {% endif %}
+    </table>
+
+    <h5>Taxonomy Data Sourced From:</h5>
+    <blockquote>
+        {% capture gbiflink %} https://www.gbif.org/species/{{ page.taxonomy.gbifkey}} {% endcapture %}
+        <p>GBIF Secretariat: GBIF Backbone Taxonomy. <a href="https://doi.org/10.15468/39omei">https://doi.org/10.15468/39omei</a>
+        Accessed via <a href="{{ gbiflink }}">{{ gbiflink }}</a> <code>[{{ page.date | date: "%-d %B %Y" }}]</code></p>
+    </blockquote>
+</div>

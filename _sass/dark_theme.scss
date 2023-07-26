@@ -23,7 +23,7 @@ hr.footer {
     border-top: 0px;
 }
 
-h1, h3, h5 {
+h1, h2, h3, h4, h5 {
     color: $primary;
 }
 
@@ -36,14 +36,6 @@ h2.nav {
 }
 
 .bordered {
-    border: 2px solid $primary;
-}
-
-.grid-item-profile {
-    border: 2px solid $primary;
-}
-
-.grid-item-notes {
     border: 2px solid $primary;
 }
 
@@ -121,6 +113,14 @@ ul {
 }
 
 li {
+    color: $text_dark;
+}
+
+table.names {
+    color: $text_dark;
+}
+
+table.taxonomy {
     color: $text_dark;
 }
 
