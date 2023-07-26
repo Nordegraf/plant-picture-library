@@ -22,7 +22,7 @@ function resize_grid_items() {
         imgHeight = $(this).find('.grid-item-carousel').height();
         proHeight = $(this).find('.grid-item-profile').height();
 
-        if (imgHeight > proHeight || imgHeight/proHeight > 0.80) {
+        if (imgHeight > proHeight || imgHeight/proHeight > 0.75) {
             $(this).find('.grid-item-notes').css('width', '100%');
         } else {
             $(this).find('.grid-item-notes').css('width', 'calc(60% - 10px)');
