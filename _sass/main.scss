@@ -47,6 +47,12 @@ iframe.plant-map {
     width: 100%;
 }
 
+div.taxonomy {
+    margin: 0 0.25rem;
+    max-width: calc(100% - 0.5rem);
+    height: auto;
+}
+
 .grid {
     max-width: 100%;
 }
@@ -93,19 +99,22 @@ iframe.plant-map {
 @include media-breakpoint-down(md) {
     .grid-item-carousel {
         width: calc(100% - 0.5rem);
-        min-width: 100%;
     }
 
     .grid-item-observation {
         width: calc(100% - 0.5rem);
-        min-width: 100%;
         margin-top: 0.5rem;
     }
 
     .grid-item-notes {
         width: calc(100% - 0.5rem);
-        min-width: 100%;
+        min-width: calc(100% - 0.5rem);
     }
+
+    div.taxonomy {
+        width: calc(100% - 0.5rem);
+    }
+
 }
 
 .isogrid {
@@ -254,6 +263,3 @@ hr.taxonomy {
     margin-bottom: 0.5rem;
 }
 
-div.taxonomy {
-    margin: 0 0.25rem;
-}
