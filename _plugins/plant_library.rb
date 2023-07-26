@@ -2,7 +2,6 @@ require 'uri'
 require 'json'
 require 'mini_magick'
 
-
 module Plants
 
     class PlantRenderer < Jekyll::Renderer
@@ -28,8 +27,9 @@ module Plants
         # emplace merged pages into default layout
         @document.content = rendered
         @document.data['layout'] = 'plant_default'
-        @document.data['title'] = @plants.first.data['name']
+        @document.data['title'] = @plants.first.data['canonical']
         @document.data['render_with_liquid'] = false
+        @document.data['taxonomy'] = @plants.first.data['taxonomy']
 
         info = {
           :registers        => { :site => site, :page => payload["page"] },
@@ -67,6 +67,9 @@ module Plants
         @plants.each do |plant|
           plant.data['tags'] = @tags
           plant.data['purl'] = @url
+          if !plant.data['taxonomy'].nil?
+            plants.first.data['taxonomy'] = plant.data['taxonomy']
+          end
         end
 
         @data = {
@@ -102,7 +105,7 @@ module Plants
           'plant' => plant,
           'style' => '/assets/css/plants.css',
           'oid' => id,
-          'name' => plant.data['name'],
+          'canonical' => plant.data['canonical'],
           'thumb' => "/assets/img/plants/thumbs/" + File.basename(plant.data['images'][0]["path"])
         }
       end
@@ -145,15 +148,15 @@ module Plants
           same_plants = []
           same_plants << doc
           for other_doc in site.collections['plants'].docs
-            if other_doc.data['name'] == doc.data['name'] and other_doc != doc
+            if other_doc.data['canonical'] == doc.data['canonical'] and other_doc != doc
               same_plants << other_doc
               site.collections['plants'].docs.delete(other_doc)
             end
           end
 
-          doc.data['title'] = doc.data['name']
+          doc.data['title'] = doc.data['canonical']
 
-          page = PlantPage.new(site, site.source, '/plants/', doc.data['name'], same_plants)
+          page = PlantPage.new(site, site.source, '/plants/', doc.data['canonical'], same_plants)
           site.pages << page
 
           # values for xml feed
@@ -182,7 +185,7 @@ module Plants
 
     # hook to reduce image size for thumbnails
     Jekyll::Hooks.register :site, :post_write do |site|
-      thumbdir = "/assets/img/plants/thumbs/"
+      thumbdir = site.source + "/assets/img/plants/thumbs/"
 
       for doc in site.collections['plants'].docs
         imgfile = doc.data['images'][0]['path']
@@ -190,12 +193,19 @@ module Plants
         if !imgfile.start_with?('/')
           imgfile = '/' + imgfile
         end
+
+        thumbfile = thumbdir + File.basename(imgfile)
+
+        # check if file already exists
+        if File.exist?(thumbfile)
+          next
+        end
+
         imgfile = site.source + imgfile
         image = MiniMagick::Image.open(imgfile)
         image.resize("500x500")
 
-        thumbfile = site.dest + thumbdir + File.basename(imgfile)
-        FileUtils.mkdir_p(site.dest + thumbdir)
+        FileUtils.mkdir_p(thumbdir)
         image.write(thumbfile)
       end
     end

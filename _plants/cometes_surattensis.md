@@ -1,5 +1,5 @@
 ---
-name: Cometes surattensis
+canonical: Cometes surattensis
 location: Al-Wa bah Crater
 country: Saudi Arabia
 date: 25.03.2022
@@ -8,4 +8,14 @@ images:
       alt: Cometes surattensis at Al-Wa'bah Crater
       description: Ruby Dock at Al-Wa'bah Crater
 coordinates: 22.901692692218795, 41.13976998061476
+taxonomy:
+  gbifkey: 7314295
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Caryophyllales
+  family: Caryophyllaceae
+  genus: Cometes
+  species: Cometes surattensis
+scientific: Cometes surattensis L.
 ---

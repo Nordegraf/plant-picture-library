@@ -35,6 +35,10 @@ h2.nav {
     color: $primary;
 }
 
+.bordered {
+    border: 2px solid $primary;
+}
+
 .grid-item-profile {
     border: 2px solid $primary;
 }

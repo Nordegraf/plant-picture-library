@@ -1,5 +1,5 @@
 ---
-name: Phyllanthus amarus
+canonical: Phyllanthus amarus
 synonyms: gale of the wind, carry me seed, seed on the leaf
 location: KAUST
 city: Thuwal
@@ -14,6 +14,16 @@ images:
       alt: Phyllanthus amarus
       description: Phyllanthus amarus
 coordinates: 22.320997604453716, 39.09244255203551
+taxonomy:
+  gbifkey: 5382589
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Malpighiales
+  family: Phyllanthaceae
+  genus: Phyllanthus
+  species: Phyllanthus amarus
+scientific: Phyllanthus amarus Schumach. & Thonn.
 ---
 
 first time in saudi arabia in 2014

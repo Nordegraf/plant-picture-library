@@ -1,5 +1,5 @@
 ---
-name: Tagetes erecta
+canonical: Tagetes erecta
 synonyms:
     - Mexican marigold
     - French marigold
@@ -20,6 +20,16 @@ sources:
       url: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=38488#null
     - name: PlantNet
       url: https://identify.plantnet.org/de
+taxonomy:
+  gbifkey: 3088488
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Asterales
+  family: Asteraceae
+  genus: Tagetes
+  species: Tagetes erecta
+scientific: Tagetes erecta L.
 ---
 
 This could also be identified as tagetes patula, which grows smaller than tagetes erecta. However tagetes patula is not recognized as an own species by some taxonomy authorities. The <a class="plink" href="https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=38488#null">ITIS database</a> for example lists it as a synonym for tagetes erecta.

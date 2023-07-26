@@ -32,11 +32,13 @@
             {% endif %}
         </div>
     </div>
-    <div class="grid-item grid-item-profile">
+    <div class="grid-item grid-item-profile bordered">
         <h5>Date of Observation</h5>
         <p>{{ page.date | date: "%B %-d, %Y" }}</p>
-        <h5>Name</h5>
-        <p>{{ page.name }}</p>
+        <h5>Canonical Name</h5>
+        <p>{{ page.canonical }}</p>
+        <h5>Scientific Name</h5>
+        <p>{{ page.scientific }}</p>
         {% if page.common %}
         <h5>Common Name</h5>
         <p>{{ page.common }}</p>
@@ -82,7 +84,7 @@
 
     {% assign cont = page.content | strip_html | strip_newlines %}
     {% if cont != "" %}
-    <div class="grid-item grid-item-notes">
+    <div class="grid-item grid-item-notes bordered">
         <h3>Notes</h3>
         {{ page.content }}
 

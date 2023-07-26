@@ -1,5 +1,5 @@
 ---
-name: Malva sylvestris L.
+canonical: Malva sylvestris
 variety: Malva sylvestris var. mauritiana
 german: Mauretanische Malve
 country: Germany

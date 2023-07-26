@@ -1,5 +1,5 @@
 ---
-name: Zinnia elegans
+canonical: Zinnia elegans
 city: Weinheim
 country: Germany
 date: 23.07.2023

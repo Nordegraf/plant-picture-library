@@ -8,7 +8,7 @@ An observation has following required and optional front matter attributes:
 
 | required/optional | attribute | description                                                                                               |
 |----------|-------------|------------------------------------------------------------------------------------------------------------------|
-| required | name        | Scientific name of the species                                                                                   |
+| required | canonical        | canonical name of the species                                                                                   |
 | optional | common      | Common name of the species                                                                                       |
 | optional | variety     | Variety of the species, if not already given in the name attribute                                               |
 | optional | synonyms    | YAML List of name synonyms of the species.                                                                       |
