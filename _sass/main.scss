@@ -65,6 +65,8 @@ iframe.plant-map {
 
 .grid-item {
   float: left;
+  margin: 0 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .grid-item-carousel {
@@ -224,8 +226,6 @@ hr.footer {
 .bordered {
     border-radius: 5px;
     padding: 0.5rem;
-    margin: 0 0.25rem;
-    margin-bottom: 0.5rem;
 }
 
 ol.taxonomy li::marker {
