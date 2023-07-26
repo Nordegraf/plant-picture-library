@@ -1,5 +1,5 @@
 ---
-name: Ixora coccinea
+canonical: Ixora coccinea
 common: Scarlet Jungleflame
 german: Malteserkreuzblume
 country: Saudi Arabia
@@ -25,6 +25,16 @@ sources:
       url: https://www.gbif.org/occurrence/gallery?taxon_key=2905600
     - name: Wikipedia
       url: https://en.wikipedia.org/wiki/Ixora_coccinea
+taxonomy:
+  gbifkey: 2905493
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Gentianales
+  family: Rubiaceae
+  genus: Ixora
+  species: Ixora coccinea
+scientific: Ixora coccinea L.
 ---
 
 Ixora coccinea is often confused with Ixora chinensis as they have very similar flowers. However you can distinguish them by the petals. <a class="plink" href="https://www.gbif.org/occurrence/gallery?taxon_key=2905493">Ixora coccinea</a> has pointy petals, while the ones of <a class="plink" href="https://www.gbif.org/occurrence/gallery?taxon_key=2905600">Ixora chinensis</a> are much more rounded.

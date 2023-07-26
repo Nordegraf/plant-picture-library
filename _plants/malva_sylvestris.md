@@ -1,5 +1,5 @@
 ---
-name: Malva sylvestris L.
+canonical: Malva sylvestris
 synonyms:
     - Common mallow
 german: Wilde Malve
@@ -14,6 +14,16 @@ images:
     - path: assets/img/plants/germany/malva_sylvestris/malva_sylvestris_1.jpg
       alt: Picture of Malva sylvestris
       description: Close up of flowers of Malva sylvestris
+taxonomy:
+  gbifkey: 3152374
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Malvales
+  family: Malvaceae
+  genus: Malva
+  species: Malva sylvestris
+scientific: Malva sylvestris L.
 ---
 
 This specimen grew on a small patch of dirt near a parking space in front of the St.Vincentus Kliniken in Karlsruhe's Südweststadt. It is between 1m and 1.30m tall. The pedal shape and color and the singular green stem indicate, that this is most likely malva sylvestris L., the common mallow.

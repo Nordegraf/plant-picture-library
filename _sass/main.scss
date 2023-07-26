@@ -65,7 +65,6 @@ iframe.plant-map {
 
 .grid-item {
   float: left;
-  border-radius: 5px;
 }
 
 .grid-item-carousel {
@@ -80,7 +79,6 @@ iframe.plant-map {
     width: calc(40% - 0.5rem);
     height: fit-content;
     margin: 0 0.25rem;
-    padding: 0.5rem;
 }
 
 .grid-item-notes {
@@ -88,7 +86,6 @@ iframe.plant-map {
     min-width: calc(60% - 0.5rem);
     height: auto;
     margin: 0.5rem 0.25rem;
-    padding: 0.5rem;
 }
 
 @include media-breakpoint-down(md) {
@@ -222,4 +219,15 @@ span.highlight {
 
 hr.footer {
     margin: 0.5em 0;
+}
+
+.bordered {
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+ol.taxonomy li::marker {
+    content: "▸";
 }

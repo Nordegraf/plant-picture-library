@@ -1,5 +1,5 @@
 ---
-name: Rosa Rugosa
+canonical: Rosa Rugosa
 common: Japanese rose
 synonyms:
   - Sylt Rose
@@ -13,4 +13,14 @@ images:
       description: Japanese Rose at a Beach in Sylt
 coordinates: 54.81448667, 8.28519500
 by: Sandra Jeschka
+taxonomy:
+  gbifkey: 7602081
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Rosales
+  family: Rosaceae
+  genus: Rosa
+  species: Rosa rugosa
+scientific: Rosa rugosa Dematra
 ---

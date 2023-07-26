@@ -1,5 +1,5 @@
 ---
-name: Zinnia elegans
+canonical: Zinnia elegans
 synonyms:
     - Garden Zinnia
 german: Garten Zinnie
@@ -23,6 +23,16 @@ images:
 sources:
     - name: Wikipedia
       url: https://en.wikipedia.org/wiki/Zinnia_elegans
+taxonomy:
+  gbifkey: 8184143
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Asterales
+  family: Asteraceae
+  genus: Zinnia
+  species: Zinnia elegans
+scientific: Zinnia elegans L.
 ---
 
 The city of Karlsruhe has multiple flower beds across the inner city they plant with various colorful assortments of flowers multiple times a year. They are always really beautiful and intereseting to look at.

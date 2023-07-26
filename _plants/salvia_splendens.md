@@ -1,5 +1,5 @@
 ---
-name: Salvia splendens
+canonical: Salvia splendens
 common: Scarlet Sage
 german: Feuersalbei
 country: Germany
@@ -16,6 +16,16 @@ images:
 sources:
     - name: Wikipedia
       url: https://en.wikipedia.org/wiki/Salvia_splendens
+taxonomy:
+  gbifkey: 8249932
+  kingdom: Plantae
+  phylum: Tracheophyta
+  class: Magnoliopsida
+  order: Lamiales
+  family: Lamiaceae
+  genus: Salvia
+  species: Salvia splendens
+scientific: Salvia splendens Sellow ex Nees
 ---
 
 Scarlet Sage is native to Brazil, but is grown as ornamental plant all around the world. The native type grows in altitudes between 2000m and 3000m and can reach a height of up to 1.3m. In cultivation it usually grows much smaller, like this specimen in front of the north entry of the Zoologischer Stadtgarten in Karlsruhe.

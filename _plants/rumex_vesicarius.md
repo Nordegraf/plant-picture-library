@@ -1,5 +1,5 @@
 ---
-name: Rumex vesicarius
+canonical: Rumex vesicarius
 common: Ruby Dock
 synonyms:
   - Bladder Dock
