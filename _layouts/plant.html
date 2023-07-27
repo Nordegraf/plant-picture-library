@@ -40,10 +40,12 @@
     {% include observation.html %}
 
     {% assign cont = page.content | strip_html | strip_newlines %}
-    {% if cont != "" %}
+    {% if cont != "" or page.sources %}
     <div class="grid-item grid-item-notes bordered">
+        {% if cont != "" %}
         <h3>Notes</h3>
         {{ page.content }}
+        {% endif %}
 
         {% if page.sources %}
         <h5>Sources</h5>
