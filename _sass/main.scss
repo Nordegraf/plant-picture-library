@@ -79,21 +79,18 @@ div.taxonomy {
     width: calc(60% - 0.5rem);
     min-width: 350px;
     height: fit-content;
-    margin: 0 0.25rem;
 }
 
 .grid-item-observation {
     min-width: 200px;
     width: calc(40% - 0.5rem);
     height: fit-content;
-    margin: 0 0.25rem;
 }
 
 .grid-item-notes {
     max-width: calc(100% - 0.5rem);
     min-width: calc(60% - 0.5rem);
     height: auto;
-    margin: 0.5rem 0.25rem;
 }
 
 @include media-breakpoint-down(md) {
@@ -103,7 +100,6 @@ div.taxonomy {
 
     .grid-item-observation {
         width: calc(100% - 0.5rem);
-        margin-top: 0.5rem;
     }
 
     .grid-item-notes {
@@ -249,17 +245,15 @@ div.plant-names {
     padding-left: 0.25rem;
 }
 
-hr {
-    margin: 0.5rem 0 !important;
-}
-
 table.taxonomy {
     font-size: 1em;
     margin-bottom: 1rem;
 }
 
 hr.taxonomy {
-    margin-top: 0 !important;
-    margin-bottom: 0.5rem;
+    margin: 0 0.25rem 0.5rem 0.25rem;
 }
 
+hr.names {
+    margin: 0.2rem 0.25rem 0.5rem 0.25rem;
+}

@@ -20,7 +20,7 @@ module Plants
           @document.data['layout'] = 'plant'
           rendered += super
           if plant != @plants.last
-            rendered += "<hr>"
+            rendered += '<hr class="taxonomy">'
           end
         end
 
