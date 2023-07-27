@@ -1,5 +1,5 @@
 ---
-name:
+canonical:
 common:
 variety:
 synonyms:
