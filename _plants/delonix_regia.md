@@ -21,6 +21,7 @@ sources:
   url: https://identify.plantnet.org/
 taxonomy:
   gbifkey: 2956176
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida

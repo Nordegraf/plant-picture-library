@@ -1,8 +1,8 @@
 ---
 canonical: Tagetes erecta
 synonyms:
-    - Mexican marigold
-    - French marigold
+- Mexican marigold
+- French marigold
 german: Aufrechte Studentenblume
 country: Germany
 city: Karlsruhe
@@ -12,16 +12,17 @@ date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-    - path: assets/img/plants/germany/tagetes_erecta/tagetes_erecta_1.jpg
-      alt: Tagetes erecta plant
-      description: A Tagetes erecta plant with bright orange flowers
+- path: assets/img/plants/germany/tagetes_erecta/tagetes_erecta_1.jpg
+  alt: Tagetes erecta plant
+  description: A Tagetes erecta plant with bright orange flowers
 sources:
-    - name: ITIS
-      url: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=38488#null
-    - name: PlantNet
-      url: https://identify.plantnet.org/de
+- name: ITIS
+  url: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=38488#null
+- name: PlantNet
+  url: https://identify.plantnet.org/de
 taxonomy:
   gbifkey: 3088488
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida
