@@ -27,6 +27,7 @@ sources:
   url: https://creationwiki.org/Bougainvillea
 taxonomy:
   gbifkey: 7167078
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida

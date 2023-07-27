@@ -10,14 +10,15 @@ date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-    - path: assets/img/plants/germany/salvia_splendens/salvia_splendens_1.jpg
-      alt: Salvia splendens plant
-      description: A Salvia splendens plant with bright red flowers
+- path: assets/img/plants/germany/salvia_splendens/salvia_splendens_1.jpg
+  alt: Salvia splendens plant
+  description: A Salvia splendens plant with bright red flowers
 sources:
-    - name: Wikipedia
-      url: https://en.wikipedia.org/wiki/Salvia_splendens
+- name: Wikipedia
+  url: https://en.wikipedia.org/wiki/Salvia_splendens
 taxonomy:
   gbifkey: 8249932
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida

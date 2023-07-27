@@ -6,24 +6,28 @@ location: Masturah Dunes
 country: Saudi Arabia
 date: 01.04.2023
 images:
-    - path: assets/img/plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_1.jpg
-      alt: Pearl Millet
-      description: Pearl Millet
-    - path: assets/img/plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_2.jpg
-      alt: Pearl Millet
-      description: Pearl Millet
+- path: assets/img/plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_1.jpg
+  alt: Pearl Millet
+  description: Pearl Millet
+- path: assets/img/plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_2.jpg
+  alt: Pearl Millet
+  description: Pearl Millet
 coordinates: 23.41828100224373, 38.95569383769491
 sources:
-  - name: "4500-Year old domesticated pearl millet (Pennisetum glaucum) from the Tilemsi Valley, Mali: new insights into an alternative cereal domestication pathway"
-    url: https://www.sciencedirect.com/science/article/abs/pii/S0305440310003171?via%3Dihub
-  - name: PlantNet Identify
-    url: https://identify.plantnet.org/de
-  - name: "Conservation of genetic resources for five traditional crops from Jazan (SW Saudi Arabia) at the KACST Gene-Bank"
-    url: https://www.researchgate.net/publication/327795337_Conservation_of_genetic_resources_for_five_traditional_crops_from_Jazan_SW_Saudi_Arabia_at_the_KACST_Gene-Bank
-  - name: "A Comprehensive Review of Pearl and Small Millets: Taxonomy, Production, Breeding and Future Prospects in Saudi Arabia"
-    url: https://www.researchgate.net/publication/372114124_A_Comprehensive_Review_of_Pearl_and_Small_Millets_Taxonomy_Production_Breeding_and_Future_Prospects_in_Saudi_Arabia
+- name: '4500-Year old domesticated pearl millet (Pennisetum glaucum) from the Tilemsi
+    Valley, Mali: new insights into an alternative cereal domestication pathway'
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0305440310003171?via%3Dihub
+- name: PlantNet Identify
+  url: https://identify.plantnet.org/de
+- name: Conservation of genetic resources for five traditional crops from Jazan (SW
+    Saudi Arabia) at the KACST Gene-Bank
+  url: https://www.researchgate.net/publication/327795337_Conservation_of_genetic_resources_for_five_traditional_crops_from_Jazan_SW_Saudi_Arabia_at_the_KACST_Gene-Bank
+- name: 'A Comprehensive Review of Pearl and Small Millets: Taxonomy, Production,
+    Breeding and Future Prospects in Saudi Arabia'
+  url: https://www.researchgate.net/publication/372114124_A_Comprehensive_Review_of_Pearl_and_Small_Millets_Taxonomy_Production_Breeding_and_Future_Prospects_in_Saudi_Arabia
 taxonomy:
   gbifkey: 5828197
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Liliopsida

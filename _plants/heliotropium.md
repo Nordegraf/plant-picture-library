@@ -4,12 +4,13 @@ location: Masturah Dunes
 country: Saudi Arabia
 date: 01.04.2023
 images:
-    - path: assets/img/plants/saudi_arabia/heliotropium/heliotropium.jpg
-      alt: Heliotropium
-      description: Heliotropium
+- path: assets/img/plants/saudi_arabia/heliotropium/heliotropium.jpg
+  alt: Heliotropium
+  description: Heliotropium
 coordinates: 23.41828100224373, 38.95569383769491
 taxonomy:
   gbifkey: 2925766
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida

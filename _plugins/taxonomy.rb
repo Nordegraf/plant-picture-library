@@ -40,6 +40,8 @@ module Taxonomy
             taxdata['gbifkey'] = data['key']
         end
 
+        # format time to 24.12.2019
+        taxdata['fetched'] = Time.now.strftime("%d.%m.%Y")
         taxdata['kingdom'] = data['kingdom']
         taxdata['phylum'] = data['phylum']
         taxdata['class'] = data['class']

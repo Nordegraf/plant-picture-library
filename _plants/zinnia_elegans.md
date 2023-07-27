@@ -1,7 +1,7 @@
 ---
 canonical: Zinnia elegans
 synonyms:
-    - Garden Zinnia
+- Garden Zinnia
 german: Garten Zinnie
 location: Kongresszentrum
 city: Karlsruhe
@@ -11,20 +11,21 @@ date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-    - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_1.jpg
-      alt: Flower of Zinnia elegans
-      description: Flower of Zinnia elegans
-    - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_2.jpg
-      alt: Zinnia elegans plant with multiple flowers
-      description: Zinnia elegans plant with multiple flowers
-    - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_3.jpg
-      alt: Zinnia elegans plant with multiple flowers
-      description: Zinnia elegans plant with multiple flowers
+- path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_1.jpg
+  alt: Flower of Zinnia elegans
+  description: Flower of Zinnia elegans
+- path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_2.jpg
+  alt: Zinnia elegans plant with multiple flowers
+  description: Zinnia elegans plant with multiple flowers
+- path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_3.jpg
+  alt: Zinnia elegans plant with multiple flowers
+  description: Zinnia elegans plant with multiple flowers
 sources:
-    - name: Wikipedia
-      url: https://en.wikipedia.org/wiki/Zinnia_elegans
+- name: Wikipedia
+  url: https://en.wikipedia.org/wiki/Zinnia_elegans
 taxonomy:
   gbifkey: 8184143
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida

@@ -49,6 +49,6 @@
     <blockquote>
         {% capture gbiflink %} https://www.gbif.org/species/{{ page.taxonomy.gbifkey}} {% endcapture %}
         <p>GBIF Secretariat: GBIF Backbone Taxonomy. <a href="https://doi.org/10.15468/39omei">https://doi.org/10.15468/39omei</a>
-        Accessed via <a href="{{ gbiflink }}">{{ gbiflink }}</a> <code>[{{ page.date | date: "%-d %B %Y" }}]</code></p>
+        Accessed via <a href="{{ gbiflink }}">{{ gbiflink }}</a> <code>[{{ page.taxonomy.fetched | date: "%-d %B %Y" }}]</code></p>
     </blockquote>
 </div>

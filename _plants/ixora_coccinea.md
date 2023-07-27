@@ -9,24 +9,25 @@ coordinates: 22.306524458057567, 39.097299556408224
 date: 24.07.2023
 by: Rebekka Pech
 images:
-    - path: assets/img/plants/saudi_arabia/ixora_coccinea/ixora_coccinea_1.jpg
-      alt: Flower of Ixora coccinea
-      description: Close up of a flower of Ixora coccinea
-    - path: assets/img/plants/saudi_arabia/ixora_coccinea/ixora_coccinea_2.jpg
-      alt: Ixora coccinea
-      description: Ixora coccinea
-    - path: assets/img/plants/saudi_arabia/ixora_coccinea/ixora_coccinea_3.jpg
-      alt: Ixora coccinea
-      description: Ixora coccinea
+- path: assets/img/plants/saudi_arabia/ixora_coccinea/ixora_coccinea_1.jpg
+  alt: Flower of Ixora coccinea
+  description: Close up of a flower of Ixora coccinea
+- path: assets/img/plants/saudi_arabia/ixora_coccinea/ixora_coccinea_2.jpg
+  alt: Ixora coccinea
+  description: Ixora coccinea
+- path: assets/img/plants/saudi_arabia/ixora_coccinea/ixora_coccinea_3.jpg
+  alt: Ixora coccinea
+  description: Ixora coccinea
 sources:
-    - name: Ixora coccinea on GBIF
-      url: https://www.gbif.org/occurrence/gallery?taxon_key=2905493
-    - name: Ixora chinensis on GBIF
-      url: https://www.gbif.org/occurrence/gallery?taxon_key=2905600
-    - name: Wikipedia
-      url: https://en.wikipedia.org/wiki/Ixora_coccinea
+- name: Ixora coccinea on GBIF
+  url: https://www.gbif.org/occurrence/gallery?taxon_key=2905493
+- name: Ixora chinensis on GBIF
+  url: https://www.gbif.org/occurrence/gallery?taxon_key=2905600
+- name: Wikipedia
+  url: https://en.wikipedia.org/wiki/Ixora_coccinea
 taxonomy:
   gbifkey: 2905493
+  fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida
