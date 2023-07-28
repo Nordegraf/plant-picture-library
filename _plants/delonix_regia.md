@@ -16,6 +16,9 @@ images:
 - path: assets/img/plants/saudi_arabia/delonix_regia/delonix_regia_2.jpg
   alt: delonix regia tree
   description: delonix regia tree
+- path: assets/img/plants/saudi_arabia/delonix_regia/delonix_regia_3.jpg
+  alt: delonix regia leaves and flowers
+  description: close on delonix regia leaves, flowers and buds
 sources:
 - name: PlantNet Identify
   url: https://identify.plantnet.org/
