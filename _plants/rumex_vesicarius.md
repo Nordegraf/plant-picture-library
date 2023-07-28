@@ -13,5 +13,3 @@ images:
       description: Ruby Dock at Masturah Dunes
 coordinates: 23.545058572367953, 38.95754704556837
 ---
-
-Ruby Dock 1

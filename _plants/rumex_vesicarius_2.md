@@ -20,5 +20,3 @@ taxonomy:
   species: Rumex vesicarius
 scientific: Rumex vesicarius L.
 ---
-
-Ruby Dock 2
