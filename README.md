@@ -33,3 +33,12 @@ The content of the page will be rendered inside a notes section. They may contai
 The Layout of every observation is set to 'plant' and the title of a page is set to the name of the plant, through this pages [Ruby plugin](_plugins/plant_library.rb), so no need to set them manually.
 
 If a single species is observed multiple times, then the observations will be merged into one page. Multiple Observations are welcome, but should at least bring some kind of new information, like a new location, new notes, different dates etc.
+
+
+# Libraries used in this project:
+- [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [isotope](https://isotope.metafizzy.co/)
+- [infinitescroll](https://infinite-scroll.com/)
+- [d3](https://d3js.org/)

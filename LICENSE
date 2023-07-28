@@ -3,7 +3,7 @@ The Images within this libraries repository are licensed under the Creative Comm
 See the LICENSE_IMAGES file for more information
 
 
-Everything else inside this repository is licensed under the GNU General Public License v3.0
+Everything else inside this repository, except the third party libraries in the assets/js/ directory, is licensed under the GNU General Public License v3.0
 
 See the LICENSE_CODE file for more information
 
