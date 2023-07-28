@@ -38,4 +38,4 @@ taxonomy:
 scientific: Bougainvillea spectabilis Willd.
 ---
 
-Bougainvillea spectabilis and Bougainvillea glabra are very similar and hard to distinguish. The main difference are the leaves. Leaves of Bougainvillea glabra have a shiny outer layer and have no hair. Leaves of Bougainvillea spectabilis have a dull outer layer and are hairy. Moreover are the thorns of Bougainvillea glabra smaller than the ones of Bougainvillea spectabilis.
+Bougainvillea spectabilis and Bougainvillea glabra are very similar and hard to distinguish. The main difference are the leaves. Leaves of Bougainvillea glabra have a shiny outer layer and have no hair. Leaves of Bougainvillea spectabilis have a dull outer layer and are hairy. Moreover the thorns of Bougainvillea glabra are smaller than the ones of Bougainvillea spectabilis.
