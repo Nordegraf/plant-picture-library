@@ -92,4 +92,45 @@ module Taxonomy
             end
         end
     end
+
+    # hook for hierarchical json data
+    Jekyll::Hooks.register :site, :post_write do |site|
+        data = {}
+
+        data["name"] = "Plantae"
+        data["children"] = []
+
+        for doc in site.collections['plants'].docs
+            subdata = data["children"]
+
+            taxdata = doc.data['taxonomy']
+
+            if taxdata.nil?
+                next
+            end
+
+            # build hierarchical representation
+            for rank in ['phylum', 'class', 'order', 'family', 'genus', 'species']
+                dpoint = taxdata[rank]
+                if dpoint.nil?
+                    next
+                end
+
+                entry = subdata.find {|entry| entry['name'] == taxdata[rank]}
+
+                if entry.nil?
+                    entry = {}
+                    entry["name"] = taxdata[rank]
+                    entry["children"] = []
+                    subdata << entry
+                end
+
+                subdata = entry["children"]
+            end
+
+        end
+
+        File.open(site.dest + "/taxonomy.json", "w") {|file| file.puts data.to_json }
+    end
 end
+

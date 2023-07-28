@@ -1,5 +1,5 @@
 ---
-canonical: Heliotropium
+canonical: Heliotropium bacciferum
 location: Masturah Dunes
 country: Saudi Arabia
 date: 01.04.2023
@@ -9,7 +9,7 @@ images:
   description: Heliotropium
 coordinates: 23.41828100224373, 38.95569383769491
 taxonomy:
-  gbifkey: 2925766
+  gbifkey: 7295525
   fetched: 28.07.2023
   kingdom: Plantae
   phylum: Tracheophyta
@@ -17,8 +17,8 @@ taxonomy:
   order: Boraginales
   family: Heliotropiaceae
   genus: Heliotropium
-  species:
-scientific: Heliotropium L.
+  species: Heliotropium bacciferum
+scientific: Heliotropium bacciferum Forssk.
 ---
 
 definitely family of Boraginaceae and genus of Heliotropium
