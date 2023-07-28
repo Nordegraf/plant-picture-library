@@ -6,11 +6,12 @@
     <script src="{{ "/assets/js/isotope.pkgd.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/infinite-scroll.pkgd.min.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/isotope.js" | relative_url }}"></script>
-    {{ page.scripts }}
     {% if page.layout == "plant" %}
     <script src="{{ "/assets/js/masonry.js" | relative_url }}"></script>
     {% endif %}
-    {% if page.script %}
-    <script src="{{ page.script | relative_url }}"></script>
+    {% if page.scripts %}
+    {% for script in page.scripts %}
+    <script src="{{ script | relative_url }}"></script>
+    {% endfor %}
     {% endif %}
 </footer>
