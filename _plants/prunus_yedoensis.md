@@ -1,5 +1,5 @@
 ---
-canonical: Prunus ×yedoensis
+canonical: Prunus × yedoensis
 common: Yoshino Cherry
 german: Japanische Maienkirsche
 country: Germany

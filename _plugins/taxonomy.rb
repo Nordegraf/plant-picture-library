@@ -17,12 +17,23 @@ module Taxonomy
         end
     end
 
-    def self.get_gbif_data(doc, conn)
+    def self.get_gbif_data(doc)
         name = doc.data['variety'].nil? ? doc.data['canonical'] : doc.data['variety']
 
-        Jekyll.logger.info "Taxonomy Data:" , "Getting GBIF data for " + name
+        if doc.data['taxonomy'].nil?
+            species = Gbif::Species
 
-        data = conn.name_suggest(q: name)[0]
+            Jekyll.logger.info "Taxonomy Data:" , "Getting GBIF data for " + name
+
+            data = species.name_suggest(q: name)[0]
+
+        elsif doc.data['taxonomy']['gbifkey'] and doc.data['taxonomy'].length == 1
+            occ = Gbif::Occurrences
+
+            Jekyll.logger.info "Taxonomy Data:" , "Getting GBIF data for " + name + " with GBIF key " + doc.data['taxonomy']['gbifkey'].to_s
+
+            data = occ.search(taxonKey: doc.data['taxonomy']['gbifkey'])["results"][0]
+        end
 
         return data
     end
@@ -65,28 +76,15 @@ module Taxonomy
     # hook for GBIF data
     Jekyll::Hooks.register :site, :post_write do |site|
 
-        species = Gbif::Species
-
         for doc in site.collections['plants'].docs
-            if doc.data['taxonomy'].nil? or doc.data['scientific'].nil?
-                addition = {}
+            if doc.data['taxonomy'].nil? or (doc.data['taxonomy']['gbifkey'] and doc.data['taxonomy'].length == 1)
 
-                data = get_gbif_data(doc, species)
-                if data.nil?
-                    warn_no_data(doc.data['canonical'])
-                    next
-                end
-
-                addition = assign_data(doc, data)
-                update_yaml_data(addition, doc)
-
-            # if a gbif key is given, but no taxonomy data, fetch it from gbif using the key
-            elsif doc.data['taxonomy']['gbifkey'] and doc.data['taxonomy'].length == 1
                 data = get_gbif_data(doc)
                 if data.nil?
                     warn_no_data(doc.data['canonical'])
                     next
                 end
+
                 addition = assign_data(doc, data)
                 update_yaml_data(addition, doc)
             end
@@ -116,11 +114,11 @@ module Taxonomy
                     next
                 end
 
-                entry = subdata.find {|entry| entry['name'] == taxdata[rank]}
+                entry = subdata.find {|entry| entry['name'] == dpoint}
 
                 if entry.nil?
                     entry = {}
-                    entry["name"] = taxdata[rank]
+                    entry["name"] = dpoint
                     entry["children"] = []
                     subdata << entry
                 end

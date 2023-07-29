@@ -143,6 +143,26 @@ module Plants
           site.data["filter_values"][attr] = site.collections['plants'].docs.map { |doc| doc.data[attr] }.uniq.compact
         end
 
+        # generate filter data to hide and show filter buttons later
+        filterlookups = {}
+
+        for doc in site.collections['plants'].docs
+          hierarchy_str = ""
+          for attr in site.data["filter_attributes"]
+            if !doc.data[attr].nil?
+              value = doc.data[attr].gsub(" ", "_")
+              filterlookups[value] = hierarchy_str
+              hierarchy_str += " " + value
+
+              if hierarchy_str[0] == " "
+                hierarchy_str = hierarchy_str[1..-1]
+              end
+            end
+          end
+        end
+
+        site.data["filter_hierarchy"] = filterlookups
+
         # render all plant pages
         site.collections['plants'].docs.each_with_index do |doc, i|
           same_plants = []
