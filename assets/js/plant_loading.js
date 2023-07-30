@@ -27,6 +27,20 @@ $.getJSON("/plant-picture-library/data.json", function(plants) {
   });
 
   $(document).trigger("ready");
+
+  $('.search-btn').on('click', function () {
+    var searchValue = $('#search-field').val();
+    $grid.isotope({ filter: function () { return $(this).find('.plant-name').text().toLowerCase().includes(searchValue); } });
+  });
+});
+
+// search if enter is pressed
+$('#search-field').on('keypress', function (e) {
+  if ($(this).val() != '') {
+    if (e.keyCode == 13) {
+      $('.search-btn').click();
+    }
+  }
 });
 
 function addPage(pageNum, plants) {

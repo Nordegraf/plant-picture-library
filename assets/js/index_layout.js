@@ -62,6 +62,8 @@ $('.reset-btn').on('click', function () {
   $('.filter-btn').filter(function () {
     return $(this).attr('data-rank') > 0;
   }).hide();
+
+  $('#search-field').val('');
 });
 
 $(window).on("resize", function () {
