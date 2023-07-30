@@ -40,5 +40,4 @@ If a single species is observed multiple times, then the observations will be me
 - [jQuery](https://jquery.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [isotope](https://isotope.metafizzy.co/)
-- [infinitescroll](https://infinite-scroll.com/)
 - [d3](https://d3js.org/)

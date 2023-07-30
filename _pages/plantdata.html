@@ -5,7 +5,7 @@ permalink: /data.json
     {% for plant in site.plants %}
       {
         "id": "{{ plant.oid }}",
-        "name": "{{ plant.name }}"
+        "name": "{{ plant.canonical }}"
         {% for attr in site.data["filter_attributes"] %}
             {% if plant[attr] %}
             ,"{{ attr }}": ["{{ plant[attr] }}"]
