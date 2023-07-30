@@ -10,7 +10,6 @@ $(window).on("load", function () {
         });
 });
 
-
 $(window).on("resize", function () {
     resize_grid_items();
     $('.masongrid').isotope('layout');

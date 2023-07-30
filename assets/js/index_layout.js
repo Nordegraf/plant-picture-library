@@ -1,19 +1,19 @@
 var $grid = $('.isogrid')
 
+$grid.isotope({
+  itemSelector: '.element-item',
+  layoutMode: 'fitRows',
+  filter: '*',
+  getSortData: {
+    name: '.plant-name',
+  },
+  sortBy: 'name',
+});
+
 var activeFilters = new Set();
 
-$(window).on("ready", function () {
+$(document).on("ready", function () {
   $grid.css("height", "auto");
-  $grid.isotope({
-    itemSelector: '.element-item',
-    layoutMode: 'fitRows',
-    filter: '*',
-    getSortData: {
-      name: '.plant-name', // text from querySelector
-    },
-    sortBy: 'name',
-
-  });
   resize_elems();
 
   $('.filter-btn').filter(function () {
@@ -39,7 +39,6 @@ $('.filter-btn').on('click', function () {
       activeFilters.add("." + upper);
     }
 
-
   } else {
     activeFilters.add(filterValue);
     $(this).addClass("clicked");
@@ -64,7 +63,6 @@ $('.reset-btn').on('click', function () {
     return $(this).attr('data-rank') > 0;
   }).hide();
 });
-
 
 $(window).on("resize", function () {
   resize_elems();
@@ -125,8 +123,6 @@ function unclick_upper_filters(upperGroups, rank) {
   }
 }
 
-
-
 function resize_elems() {
   var gridwidth = $grid.width();
   var elemMargin = parseInt($grid.find('.element-item').css('margin'));
@@ -139,6 +135,6 @@ function resize_elems() {
   var newWidth = "calc(" + elemWidth + "% - " + elemMargin*2 + "px)";
 
   $(".element-item").css("width", newWidth);
-  $grid.isotope('layout');
+  $grid.isotope();
 }
 
