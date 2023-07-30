@@ -2,7 +2,7 @@
     
       {
         "id": "0",
-        "name": ""
+        "name": "Prunus × yedoensis"
         
             
             ,"country": ["Germany"]
@@ -19,7 +19,7 @@
     
       {
         "id": "1",
-        "name": ""
+        "name": "Cometes surattensis"
         
             
             ,"country": ["Saudi Arabia"]
@@ -36,7 +36,7 @@
     
       {
         "id": "2",
-        "name": ""
+        "name": "Rumex vesicarius"
         
             
             ,"country": ["Saudi Arabia"]
@@ -53,7 +53,7 @@
     
       {
         "id": "3",
-        "name": ""
+        "name": "Tribulus macropterus"
         
             
             ,"country": ["Saudi Arabia"]
@@ -70,7 +70,7 @@
     
       {
         "id": "4",
-        "name": ""
+        "name": "Calotropis procera"
         
             
             ,"country": ["Saudi Arabia"]
@@ -87,7 +87,7 @@
     
       {
         "id": "5",
-        "name": ""
+        "name": "Cenchrus americanus"
         
             
             ,"country": ["Saudi Arabia"]
@@ -104,7 +104,7 @@
     
       {
         "id": "6",
-        "name": ""
+        "name": "Heliotropium bacciferum"
         
             
             ,"country": ["Saudi Arabia"]
@@ -121,7 +121,7 @@
     
       {
         "id": "7",
-        "name": ""
+        "name": "Phyllanthus amarus"
         
             
             ,"country": ["Saudi Arabia"]
@@ -140,7 +140,7 @@
     
       {
         "id": "8",
-        "name": ""
+        "name": "Rosa Rugosa"
         
             
             ,"country": ["Germany"]
@@ -157,7 +157,7 @@
     
       {
         "id": "9",
-        "name": ""
+        "name": "Petunia × atkinsiana"
         
             
             ,"country": ["Germany"]
@@ -176,7 +176,7 @@
     
       {
         "id": "10",
-        "name": ""
+        "name": "Salvia splendens"
         
             
             ,"country": ["Germany"]
@@ -195,7 +195,7 @@
     
       {
         "id": "11",
-        "name": ""
+        "name": "Silene vulgaris"
         
             
             ,"country": ["Germany"]
@@ -214,7 +214,7 @@
     
       {
         "id": "12",
-        "name": ""
+        "name": "Tagetes erecta"
         
             
             ,"country": ["Germany"]
@@ -233,7 +233,7 @@
     
       {
         "id": "13",
-        "name": ""
+        "name": "Zinnia elegans"
         
             
             ,"country": ["Germany"]
@@ -252,7 +252,7 @@
     
       {
         "id": "14",
-        "name": ""
+        "name": "Malva sylvestris"
         
             
             ,"country": ["Germany"]
@@ -271,7 +271,7 @@
     
       {
         "id": "15",
-        "name": ""
+        "name": "Ixora coccinea"
         
             
             ,"country": ["Saudi Arabia"]
@@ -290,7 +290,7 @@
     
       {
         "id": "16",
-        "name": ""
+        "name": "Bougainvillea spectabilis"
         
             
             ,"country": ["Saudi Arabia"]
@@ -309,7 +309,7 @@
     
       {
         "id": "17",
-        "name": ""
+        "name": "Delonix regia"
         
             
             ,"country": ["Saudi Arabia"]
@@ -328,7 +328,7 @@
     
       {
         "id": "18",
-        "name": ""
+        "name": "Catharanthus roseus"
         
             
             ,"country": ["Saudi Arabia"]
@@ -347,7 +347,7 @@
     
       {
         "id": "19",
-        "name": ""
+        "name": "Tradescantia spathacea"
         
             
             ,"country": ["Saudi Arabia"]
@@ -366,7 +366,7 @@
     
       {
         "id": "20",
-        "name": ""
+        "name": "Lagerstroemia speciosa"
         
             
             ,"country": ["Saudi Arabia"]
@@ -385,7 +385,7 @@
     
       {
         "id": "21",
-        "name": ""
+        "name": "Nerium oleander"
         
             
             ,"country": ["Saudi Arabia"]
@@ -397,6 +397,23 @@
         
             
             ,"location": ["KAUST"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "22",
+        "name": "Kniphofia uvaria"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Düsseldorf"]
+            
+        
             
         
       }
