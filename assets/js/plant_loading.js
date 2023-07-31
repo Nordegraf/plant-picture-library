@@ -12,12 +12,15 @@ $.getJSON("{{ "/data.json" | relative_url }}", function(plants) {
     return a.name.localeCompare(b.name);
   });
 
+  // add first page
   addPage(pageNum, plants);
 
   // hide load more button if there are no more plants
   if (plants.length <= numPerPage*(pageNum+1)) {
     $("#load-more").hide();
   }
+
+  $(window).trigger("ready");
 
   // add pages when buttons are clicked
   $('#load-more').on("click", function() {
@@ -29,11 +32,9 @@ $.getJSON("{{ "/data.json" | relative_url }}", function(plants) {
     }
   });
 
-  $(document).trigger("ready");
-
   $('.search-btn').on('click', function () {
     var searchValue = $('#search-field').val();
-    $grid.isotope({ filter: function () { return $(this).find('.plant-name').text().toLowerCase().includes(searchValue); } });
+    $grid.isotope({ filter: function () { return $(this).find('.plant-name').text().includes(searchValue); } });
   });
 });
 
@@ -61,8 +62,10 @@ function addPage(pageNum, plants) {
     promises[i - startIndex] = addPlant(plantID);
   }
 
-  $.when.apply($, promises).done(function() {
+  // wait for all promises to be fulfilled
+  Promise.allSettled(promises).then(function() {
     $grid.isotope('reloadItems').isotope();
+    resize_elems();
   });
 }
 
