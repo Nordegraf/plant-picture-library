@@ -12,10 +12,7 @@ $grid.isotope({
 
 var activeFilters = new Set();
 
-$(document).on("ready", function () {
-  $grid.css("height", "auto");
-  resize_elems();
-
+$(window).ready(function () {
   $('.filter-btn').filter(function () {
     return $(this).attr('data-rank') > 0;
   }).hide();
@@ -127,6 +124,7 @@ function unclick_upper_filters(upperGroups, rank) {
 
 function resize_elems() {
   var gridwidth = $grid.width();
+
   var elemMargin = parseInt($grid.find('.element-item').css('margin'));
   var elemMinWidth = parseInt($grid.find('.element-item').css('min-width')) + 2*elemMargin;// min width of each element in px including margin
 
