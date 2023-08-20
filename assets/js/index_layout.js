@@ -8,6 +8,7 @@ $grid.isotope({
     name: '.plant-name',
   },
   sortBy: 'name',
+  transitionDuration: 0
 });
 
 var activeFilters = new Set();
@@ -27,7 +28,6 @@ $('.filter-btn').on('click', function () {
     $(this).removeClass("clicked");
 
     hide_lower_filters(filterValue, rank);
-
 
     if (rank > 0 && activeFilters.size == 0) {
       // add next upper filter to active filters if activeFilters is empty otherwise
@@ -61,6 +61,11 @@ $('.reset-btn').on('click', function () {
   }).hide();
 
   $('#search-field').val('');
+
+  // show load more button if not all plants are shown
+  if ($('.element-item').length < numEntries) {
+    $("#load-more").show();
+  }
 });
 
 $(window).on("resize", function () {
