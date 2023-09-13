@@ -198,12 +198,28 @@ div.taxonomy {
     transition: .5s ease;
 }
 
+.cultivar-tag{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    left: 0;
+    transition: .5s ease;
+}
+
 .plant-container:hover {
     .overlay {
         opacity: 1;
     }
 
     .plant-name {
+        background-color: rgba(0, 0, 0, 0.0);
+    }
+
+    .cultivar-tag {
         background-color: rgba(0, 0, 0, 0.0);
     }
 }
