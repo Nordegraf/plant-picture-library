@@ -16,8 +16,15 @@ module Plants
         rendered = ""
         for plant in @plants
           @document = plant
+
           # layout must be set here, to quarantee correct rendering
-          @document.data['layout'] = 'plant'
+          # if no images are given, then this is a dummy page, made to add some information rather than images
+          if plant.data['images'].nil?
+            @document.data['layout'] = 'plant_dummy'
+          else # if images are given, then this is a real plant page
+            @document.data['layout'] = 'plant'
+          end
+
           rendered += super
           if plant != @plants.last
             rendered += '<hr class="taxonomy">'
@@ -100,13 +107,24 @@ module Plants
 
         @dir = dir + id.to_s + ext
 
+        # hack for dummy pages without images
+        thumb = ""
+        if !plant.data['thumb'].nil?
+          thumb = File.basename(plant.data['thumb'])
+        elsif !plant.data['images'].nil?
+          thumb = File.basename(plant.data['images'][0]["path"])
+        else
+          Jekyll.logger.error "Plant #{plant.data['canonical']} has no images and no thumbnail given. Either add a thumbnail through the frontmatter attribute thumb, or add images."
+        end
+
+
         @data = {
-          'layout' => 'plant_thumb',
+          'layout' => plant["thumb_layout"] ? plant["thumb_layout"] : 'plant_thumb',
           'plant' => plant,
           'style' => '/assets/css/plants.css',
           'oid' => id,
           'canonical' => plant.data['canonical'],
-          'thumb' => "/assets/img/plants/thumbs/" + File.basename(plant.data['images'][0]["path"])
+          'thumb' => "/assets/img/plants/thumbs/" + thumb,
         }
       end
 
@@ -177,11 +195,15 @@ module Plants
 
           doc.data['title'] = doc.data['canonical']
 
+          if !doc.data['thumb'].nil?
+            doc.data['image'] = doc.data['thumb']
+          else
+            doc.data['image'] = doc.data['images'][0]['path']
+          end
+
           page = PlantPage.new(site, site.source, '/plants/', doc.data['canonical'], same_plants)
           site.pages << page
 
-          # values for xml feed
-          doc.data['image'] = doc.data['images'][0]['path']
           if doc.data['excerpt'].nil?
             doc.data['excerpt'] = doc.content[0..1000]
           end
@@ -206,7 +228,7 @@ module Plants
 
     def self.generate_thumbnails(source, dest, site)
       for doc in site.collections['plants'].docs
-        imgfile = doc.data['images'][0]['path']
+        imgfile = doc.data['image']
 
         if !imgfile.start_with?('/')
           imgfile = '/' + imgfile
