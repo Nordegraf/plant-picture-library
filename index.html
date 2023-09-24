@@ -17,11 +17,13 @@ scripts:
         <div id="flush-collapse{{ attr }}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{ attr }}">
           <div class="accordion-body filters">
             {% for value in site.data["filter_values"][attr] %}
-            {% assign fltr = value | replace: ' ', '_' %}
+            {% assign fltr = value | replace: ' ', '_' | replace: "'", ":" %}
             {% assign fltr_lu = site.data["filter_hierarchy"][fltr] %}
-            {% assign fltrs = fltr_lu | split: ' ' %}
-            {% assign rank = fltrs | size %}
-            <button class="btn btn-primary plant-category filter-btn {{ fltr_lu }}" data-filter=".{{ fltr }}" data-upper="{{ fltr_lu }}"  data-rank="{{ rank }}">{{ value }}</button>
+            {% assign classes = fltr_lu | split: '.' | join: " " %}
+            {% assign fltr_data = fltr_lu | append: '.' | append: fltr %}
+            {% assign attrs = site.data["filter_hierarchy_attrs"][fltr] %}
+            {% assign rank = attrs | split: " " | size | minus: 1 %}
+            <button class="btn btn-primary plant-category filter-btn{{ classes }}" data-filter="{{ fltr_data }}" data-rank="{{ rank }}" data-attr="{{ attrs }}">{{ value }}</button>
             {% endfor %}
           </div>
         </div>
