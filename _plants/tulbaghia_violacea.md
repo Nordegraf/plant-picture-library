@@ -11,14 +11,14 @@ by: Rebekka Pech
 author: Niklas Conen
 images:
 - path: assets/img/plants/zambia/tulbaghia_violacea/tulbaghia_violacea_1.jpg
-  alt:
-  description:
+  alt: Tulbaghia violacea
+  description: closeup of Tulbaghia violacea flowers
 - path: assets/img/plants/zambia/tulbaghia_violacea/tulbaghia_violacea_2.jpg
-  alt:
-  description:
+  alt: Tulbaghia violacea
+  description: A Tulbaghia violacea plant with some flowers in the foreground
 - path: assets/img/plants/zambia/tulbaghia_violacea/tulbaghia_violacea_3.jpg
-  alt:
-  description:
+  alt: Tulbaghia violacea
+  description: multiple Tulbaghia violacea plants aranged in a circle
 taxonomy:
   gbifkey: 5326622
   fetched: 24.09.2023
