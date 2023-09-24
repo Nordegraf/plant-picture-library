@@ -18,9 +18,9 @@
                 {% endfor %}
             </div>
             {% endif %}
-            <div class="carousel-inner">
+            <div class="carousel-inner d-flex align-middle">
                 {% for img in page.images %}
-                <div class="carousel-item{% if forloop.first %} active{% endif %}">
+                <div class="carousel-item {% if forloop.first %} active{% endif %}">
                     <img src="{{ img.path | relative_url }}" class="d-block w-100 plant-img" alt="{{ img.alt }}">
                 </div>
                 {% endfor %}
