@@ -1,4 +1,6 @@
 $(window).on("load", function () {
+    resize_carousel();
+
     resize_grid_items();
 
     $('.masongrid').isotope({
@@ -26,4 +28,18 @@ function resize_grid_items() {
             $(this).find('.grid-item-notes').css('width', 'calc(60% - 10px)');
         }
     });
+}
+
+function resize_carousel() {
+    var maxHeight = 0;
+    var images = $('.plant-img').each(function () {
+        if ($(this).height() > maxHeight) {
+            maxHeight = $(this).height();
+        }
+    });
+
+    console.log(maxHeight);
+
+    $('#carouselcarousel').css('height', maxHeight);
+
 }

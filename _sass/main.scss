@@ -39,6 +39,17 @@ button.plant-category {
 
 img.plant-img {
     border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div.carousel-item {
+    height: 100%;
+}
+
+div.carousel-inner {
+    height: 100%;
 }
 
 iframe.plant-map {
