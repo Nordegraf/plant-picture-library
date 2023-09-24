@@ -61,13 +61,12 @@ class Observation:
             with exiftool.ExifToolHelper() as et:
                 data = et.get_tags(image, ["Composite:GPSPosition", "EXIF:DateTimeOriginal"])[0]
                 geotag = data.get("Composite:GPSPosition")
-                date = data.get("EXIF:DateTimeOriginal").split(" ")[0]
+                date = data.get("EXIF:DateTimeOriginal")
+                if date:
+                    date = date.split(" ")[0].split(":")
+                    self.data["date"] = f"{date[2]}.{date[1]}.{date[0]}"
                 if geotag:
                     self.data["coordinates"] = geotag.replace(" ", ", ")
-
-                date = date.split(":")
-
-                self.data["date"] = f"{date[2]}.{date[1]}.{date[0]}"
 
     def __get_location_data(self, location: str) -> None:
         """
@@ -82,6 +81,11 @@ class Observation:
         self.data["city"] = data.get('city')
         if data.get("historic"):
             self.data["location"] = data.get("historic")
+        elif data.get("tourism"):
+            self.data["location"] = data.get("tourism")
+
+
+        print(data)
 
     def __convert_gps_to_google_coordinates(self, coords, coords_ref) -> str:
         """
@@ -97,14 +101,14 @@ class Observation:
         helper function to detect if coordinate data from user input was given in decimal or in the format '38 deg 42' 47.24" N, 9 deg 8' 0.57" W'
         """
 
-        if any(x not in coords for x in ('N', 'S', 'E', 'W')):
+        if any(x in coords for x in ('N', 'S', 'E', 'W')):
             coords.replace("deg", "").replace("°", "").replace("'", "").replace('"', "")
             coords = coords.split(",")
             lat = self.__convert_gps_to_google_coordinates(coords[0][0:2], coords[0][-1])
             lon = self.__convert_gps_to_google_coordinates(coords[1][0:2], coords[1][-1])
             return f"{lat}, {lon}"
         else:
-            return coords
+            return coords.replace('"', "")
 
     def __add_image_data_and_move(self) -> None:
         """
@@ -119,9 +123,11 @@ class Observation:
         Path(asset_path).mkdir(parents=True, exist_ok=True)
 
         for image in images:
-            # shutil.move(self.image_path + image, asset_path)
+            shutil.move(image, asset_path)
             image_path = f"{asset_path.replace('../', '').replace('./', '')}{image.replace(self.image_path, '')}"
             self.data["images"].append(image_path)
+
+        self.data["images"] = sorted(self.data["images"])
 
     def __create_markdown(self) -> str:
         """
@@ -184,10 +190,15 @@ class Observation:
 
         self.__read_exif_data()
 
+        if not self.data.get("date"):
+            print("No date found, please enter date in the format 'dd.mm.yyyy': ")
+            date = input()
+            self.data["date"] = date
+
         if not self.data.get("coordinates"):
             print("No geotag found, please enter coordinates either in decimal or in the format '38 deg 42' 47.24\" N, 9 deg 8' 0.57\" W': ")
             coordinates = input()
-            self.coordinates = self.__convert_input_coordinates(coordinates)
+            self.data["coordinates"] = self.__convert_input_coordinates(coordinates)
 
         self.__get_location_data(self.data.get("coordinates"))
 
