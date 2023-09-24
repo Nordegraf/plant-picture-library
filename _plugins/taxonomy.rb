@@ -64,6 +64,11 @@ module Taxonomy
         if data['rank'] == 'VARIETY'
             taxdata['variety'] = data['scientificName']
         end
+
+        if data['rank'] == 'SUBSPECIES'
+            taxdata['subspecies'] = data['scientificName']
+        end
+
         addition['taxonomy'] = taxdata
 
         if doc.data['scientific'].nil?
@@ -108,7 +113,7 @@ module Taxonomy
             end
 
             # build hierarchical representation
-            for rank in ['phylum', 'class', 'order', 'family', 'genus', 'species']
+            for rank in ['phylum', 'class', 'order', 'family', 'genus', 'species', 'subspecies', 'variety']
                 dpoint = taxdata[rank]
                 if dpoint.nil?
                     next

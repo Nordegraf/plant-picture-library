@@ -36,6 +36,13 @@
             <td>Species:</td>
             <td>{{ page.taxonomy.species }}</td>
         </tr>
+        {% if page.taxonomy.subspecies %}
+        <tr>
+            <td>▸</td>
+            <td>Subspecies:</td>
+            <td>{{ page.taxonomy.subspecies }}</td>
+        </tr>
+        {% endif %}
         {% if page.taxonomy.variety %}
         <tr>
             <td>▸</td>
