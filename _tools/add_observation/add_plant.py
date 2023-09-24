@@ -84,9 +84,6 @@ class Observation:
         elif data.get("tourism"):
             self.data["location"] = data.get("tourism")
 
-
-        print(data)
-
     def __convert_gps_to_google_coordinates(self, coords, coords_ref) -> str:
         """
         helper function to convert gps coordinates of the format '38 deg 42' 47.24" N'
