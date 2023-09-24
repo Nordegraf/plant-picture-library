@@ -163,14 +163,24 @@ module Plants
 
         # generate filter data to hide and show filter buttons later
         filterlookups = {}
+        filterattrs = {}
 
         for doc in site.collections['plants'].docs
           hierarchy_str = ""
+          attrs_str = ""
           for attr in site.data["filter_attributes"]
             if !doc.data[attr].nil?
-              value = doc.data[attr].gsub(" ", "_")
+              value = doc.data[attr].gsub(" ", "_").gsub("'", ":")
+
+              if attrs_str != ""
+                attrs_str += " " + attr
+              else
+                attrs_str = attr
+              end
+              filterattrs[value] = attrs_str
+
               filterlookups[value] = hierarchy_str
-              hierarchy_str += " " + value
+              hierarchy_str += "." + value
 
               if hierarchy_str[0] == " "
                 hierarchy_str = hierarchy_str[1..-1]
@@ -180,6 +190,7 @@ module Plants
         end
 
         site.data["filter_hierarchy"] = filterlookups
+        site.data["filter_hierarchy_attrs"] = filterattrs
 
         # render all plant pages
         site.collections['plants'].docs.each_with_index do |doc, i|
