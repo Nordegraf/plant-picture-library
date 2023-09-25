@@ -2,7 +2,7 @@
 canonical: Crocus tommasinianus
 common: woodland crocus
 german: Elfen-Krokus
-country: Deutschland
+country: Germany
 city: Wasserburg am Inn
 coordinates: 48.0552583333333, 12.2222027777778
 date: 11.03.2018
