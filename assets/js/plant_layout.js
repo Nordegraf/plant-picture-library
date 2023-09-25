@@ -1,6 +1,5 @@
 $(window).on("load", function () {
     resize_carousel();
-
     resize_grid_items();
 
     $('.masongrid').isotope({
@@ -9,7 +8,7 @@ $(window).on("load", function () {
         masonry: {
             columnWidth: ".grid-sizer"
         }
-        });
+    });
 });
 
 $(window).on("resize", function () {
@@ -31,15 +30,19 @@ function resize_grid_items() {
 }
 
 function resize_carousel() {
-    var maxHeight = 0;
-    var images = $('.plant-img').each(function () {
-        if ($(this).height() > maxHeight) {
-            maxHeight = $(this).height();
+    var carouselWidth = $('.grid-item-carousel').width();
+    var carouselHeight = 0;
+
+    $('.plant-img').each(function () {
+        var width = this.naturalWidth;
+        var height = this.naturalHeight;
+
+        var renderedHeight = height * carouselWidth / width;
+
+        if (renderedHeight > carouselHeight) {
+            carouselHeight = renderedHeight;
         }
     });
 
-    console.log(maxHeight);
-
-    $('#carouselcarousel').css('height', maxHeight);
-
+    $('.carousel-item').css('height', carouselHeight + 'px');
 }
