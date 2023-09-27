@@ -3,7 +3,7 @@ canonical: Lantana camara
 common: Common lantana
 german: Wandelröschen
 country: Portugal
-city: Lisboa
+city: Lisbon
 location: Castelo de São Jorge
 coordinates: 38.7131219997222, -9.1334928
 date: 06.09.2023
