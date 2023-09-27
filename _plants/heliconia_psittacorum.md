@@ -9,7 +9,7 @@ date: 26.09.2018
 by: Moritz Kowalski
 author: Moritz Kowalski
 images: 
-  - path: assets/img/plants/ประเทศไทย/heliconia_psittacorum/heliconia_psittacorum_1.jpg
+  - path: assets/img/plants/thailand/heliconia_psittacorum/heliconia_psittacorum_1.jpg
     alt: Haliconia psittacorum
     description: picture of the flower with an lizard on top of it
 
