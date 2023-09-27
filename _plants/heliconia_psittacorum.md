@@ -2,7 +2,7 @@
 canonical: Heliconia psittacorum
 common: parrot's beak
 german: Hummerscheren
-country: ประเทศไทย
+country: Thailand
 city: Ban Bang La On
 coordinates: 8.64899,98.25281
 date: 26.09.2018
