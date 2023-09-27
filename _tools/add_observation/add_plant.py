@@ -74,7 +74,7 @@ class Observation:
         """
 
         geolocator = Nominatim(user_agent="ppl")
-        location = geolocator.reverse(location)
+        location = geolocator.reverse(location, language="en")
         data = location.raw['address']
 
         self.data["country"] = data.get('country')
