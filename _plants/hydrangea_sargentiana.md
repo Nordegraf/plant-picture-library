@@ -1,7 +1,8 @@
 ---
 canonical: Hydrangea sargentiana
+scientific: Hydrangea sargentiana Rehder
 german: Samt-Hortensie
-country: Deutschland
+country: Germany
 city: Sylt
 coordinates: 54.89456,8.36815
 date: 02.07.2023
@@ -21,5 +22,3 @@ taxonomy:
   family: Hydrangeaceae
   genus: Hydrangea
   species: Hydrangea sargentiana
-scientific: Hydrangea sargentiana Rehder
----
