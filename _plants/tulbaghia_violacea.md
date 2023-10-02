@@ -4,7 +4,7 @@ common: society garlic
 german: Zimmerknoblauch
 country: Zambia
 city: Lusaka
-location: Crossroads Lodge
+location: Cross roads Lodge
 coordinates: -15.383067, 28.309489
 date: 21.09.2023
 by: Rebekka Pech

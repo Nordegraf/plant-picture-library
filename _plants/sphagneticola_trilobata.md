@@ -5,7 +5,7 @@ german: Wedelie
 country: Zambia
 city: Lusaka
 location: Cross roads lodge
-coordinates: "-15.383072,28.309500"
+coordinates: -15.383072,28.309500
 date: 23.09.2023
 by: Rebekka Pech
 author: Niklas Conen
