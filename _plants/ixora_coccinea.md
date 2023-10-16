@@ -10,13 +10,10 @@ date: 24.07.2023
 by: Rebekka Pech
 images:
 - path: plants/saudi_arabia/ixora_coccinea/ixora_coccinea_1.jpg
-  alt: Flower of Ixora coccinea
   description: Close up of a flower of Ixora coccinea
 - path: plants/saudi_arabia/ixora_coccinea/ixora_coccinea_2.jpg
-  alt: Ixora coccinea
   description: Ixora coccinea
 - path: plants/saudi_arabia/ixora_coccinea/ixora_coccinea_3.jpg
-  alt: Ixora coccinea
   description: Ixora coccinea
 sources:
 - name: Ixora coccinea on GBIF

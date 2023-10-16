@@ -10,13 +10,10 @@ by: Moritz Kowalski
 author: Moritz Kowalski
 images:
 - path: plants/germany/crocus_tommasinianus/crocus_tommasinianus_1.jpg
-  alt: Crocus tommasinianus
   description: close-up of crocus tommasinianus
 - path: plants/germany/crocus_tommasinianus/crocus_tommasinianus_2.jpg
-  alt: Crocus tommasinianus
   description: crocus tommasinianus from above
 - path: plants/germany/crocus_tommasinianus/crocus_tommasinianus_3.jpg
-  alt: Crocus tommasinianus
   description: crocus tommasinias from the side
 taxonomy:
   gbifkey: 2747564

@@ -10,10 +10,8 @@ by: Kira Conen
 author: Niklas Conen
 images:
 - path: plants/germany/arum_cylindraceum/arum_cylindraceum_1.jpg
-  alt:
   description:
 - path: plants/germany/arum_cylindraceum/arum_cylindraceum_2.jpg
-  alt:
   description:
 taxonomy:
   gbifkey: 5330639

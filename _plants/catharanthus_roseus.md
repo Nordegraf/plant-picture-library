@@ -11,10 +11,8 @@ by: Rebekka Pech
 author: Niklas Conen
 images:
 - path: plants/saudi_arabia/catharanthus_roseus/catharanthus_roseus_1.jpg
-  alt: pink catharanthus roseus bloom
   description: close up of pink catharanthus roseus bloom
 - path: plants/saudi_arabia/catharanthus_roseus/catharanthus_roseus_2.jpg
-  alt: white catharanthus roseus bloom
   description: close up of white catharanthus roseus bloom
 sources:
 - name: Chapter 3 of Catharanthus roseus Alkaloids to the Discovery of Vinorelbine

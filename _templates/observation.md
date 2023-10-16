@@ -3,8 +3,8 @@ canonical:
 common:
 variety:
 synonyms:
-    -
-    -
+  -
+  -
 german:
 country:
 city:
@@ -14,15 +14,13 @@ date:
 by:
 author:
 images:
-    - path:
-      alt:
-      description:
-    - path:
-      alt:
-      description:
+- path:
+  description:
+- path:
+  description:
 sources:
-    - name:
-      url:
-    - name:
-      url:
+- name:
+  url:
+- name:
+  url:
 ---

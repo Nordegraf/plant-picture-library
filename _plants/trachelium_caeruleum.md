@@ -11,10 +11,8 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/portugal/trachelium_caeruleum/trachelium_caeruleum_1.jpg
-  alt: Trachelium caeruleum flowers
   description: close up of some Trachelium caeruleum flowers
 - path: plants/portugal/trachelium_caeruleum/trachelium_caeruleum_2.jpg
-  alt: Trachelium caeruleum plant
   description: picture of a Trachelium caeruleum plant
 taxonomy:
   gbifkey: 5407810

@@ -11,10 +11,8 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/portugal/cuphea_ignea/cuphea_ignea_1.jpg
-  alt: Some Cuphea ignea flowers
   description: Some Cuphea ignea flowers
 - path: plants/portugal/cuphea_ignea/cuphea_ignea_2.jpg
-  alt: Close up of Cuphea ignea flowers
   description: Close up of Cuphea ignea flowers
 taxonomy:
   gbifkey: 3188684

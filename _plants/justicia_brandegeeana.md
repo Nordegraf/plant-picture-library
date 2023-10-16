@@ -11,16 +11,12 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_1.jpg
-  alt: Justicia brandegeeana flower
   description: close up of a Justicia brandegeeana flower
 - path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_2.jpg
-  alt: Justicia brandegeeana flowers
   description: close up of some Justicia brandegeeana flowers
 - path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_3.jpg
-  alt: Justicia brandegeeana flowers
   description: close up of some Justicia brandegeeana flowers
 - path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_4.jpg
-  alt: Justicia brandegeeana plant
   description: picture of a whole Justicia brandegeeana plant
 taxonomy:
   gbifkey: 3173122

@@ -10,10 +10,8 @@ by: Kira Conen
 author: Kira Conen
 images:
 - path: plants/germany/kniphofia_uvaria/kniphofia_uvaria_1.jpg
-  alt: Kniphofia uvaria flowers
   description: close up of the flowers of Kniphofia uvaria
 - path: plants/germany/kniphofia_uvaria/kniphofia_uvaria_2.jpg
-  alt: Kniphofia uvaria
   description: Kniphofia uvaria plant
 taxonomy:
   gbifkey: 5305033

@@ -11,7 +11,6 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/germany/digitalis_purpurea/digitalis_purpurea_1.jpg
-  alt: Flowers of Digitalis purpurea
   description: Close up of the flowers of Digitalis purpurea
 taxonomy:
   gbifkey: 5414995

@@ -11,13 +11,10 @@ by: Rebekka Pech
 author: Niklas Conen
 images:
 - path: plants/zambia/sphagneticola_trilobata/sphagneticola_trilobata_1.jpg
-  alt: Sphagneticola trilobata
   description: close up of Sphagneticola trilobata flowers
 - path: plants/zambia/sphagneticola_trilobata/sphagneticola_trilobata_2.jpg
-  alt: Sphagneticola trilobata
   description: close up of Sphagneticola trilobata flowers
 - path: plants/zambia/sphagneticola_trilobata/sphagneticola_trilobata_3.jpg
-  alt: Sphagneticola trilobata
   description: Sphagneticola trilobata plant with flowers
 taxonomy:
   gbifkey: 3116842

@@ -11,7 +11,6 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/germany/salvia_splendens/salvia_splendens_1.jpg
-  alt: Salvia splendens plant
   description: A Salvia splendens plant with bright red flowers
 sources:
 - name: Wikipedia

@@ -11,19 +11,14 @@ by: Rebekka Pech, Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/portugal/lantana_camara/lantana_camara_1.jpg
-  alt: Lantana camara
   description: close up of two yellow and pink flowers of lantana camara
 - path: plants/portugal/lantana_camara/lantana_camara_2.jpg
-  alt: Lantana camara
   description: close up of two yellow and pink flowers of lantana camara
 - path: plants/portugal/lantana_camara/lantana_camara_3.jpg
-  alt: Lantana camara
   description: close up of two yellow flowers of lantana camara
 - path: plants/portugal/lantana_camara/lantana_camara_4.jpg
-  alt: Lantana camara
   description: close up of a yellow and pink flower of lantana camara
 - path: plants/portugal/lantana_camara/lantana_camara_5.jpg
-  alt: Lantana camara
   description: lantana camara bush with multiple flowers
 taxonomy:
   gbifkey: 2925303

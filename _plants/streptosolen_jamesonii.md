@@ -11,10 +11,8 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/portugal/streptosolen_jamesonii/streptosolen_jamesonii_1.jpg
-  alt: Streptosolen jamesonii flower
   description: close up of a Streptosolen jamesonii flower
 - path: plants/portugal/streptosolen_jamesonii/streptosolen_jamesonii_2.jpg
-  alt: Streptosolen jamesonii flower
   description: close up of a Streptosolen jamesonii flower
 taxonomy:
   gbifkey: 5341821

@@ -10,7 +10,6 @@ by: Sandra Jeschka
 author: Moritz Kowalski
 images:
 - path: plants/germany/hydrangea_sargentiana/hydrangea_sargentiana_1.jpg
-  alt: Hydrangeo sargentiana
   description: close-up of the plant hydrangeo sargentiana
 taxonomy:
   gbifkey: 3645659

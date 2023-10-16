@@ -12,7 +12,6 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/germany/petunia_x_atkinsiana/petunia_1.jpg
-  alt: Image of a Petunia × atkinsiana (Sweet) D.Don ex W.H.Baxter
   description: Petunia × atkinsiana (Sweet) D.Don ex W.H.Baxter
 taxonomy:
   gbifkey: 2928859

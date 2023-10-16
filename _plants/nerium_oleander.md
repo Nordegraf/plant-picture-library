@@ -10,13 +10,10 @@ by: Rebekka Pech
 author: Niklas Conen
 images:
 - path: plants/saudi_arabia/nerium_oleander/nerium_oleander_1.jpg
-  alt: Nerium oleander flowers
   description: close up of Nerium oleander flowers
 - path: plants/saudi_arabia/nerium_oleander/nerium_oleander_2.jpg
-  alt: Nerium oleander bush
   description: Nerium oleander bush
 - path: plants/saudi_arabia/nerium_oleander/nerium_oleander_3.jpg
-  alt: Nerium oleander flower
   description: close up of Nerium oleander flower
 taxonomy:
   gbifkey: 3169756

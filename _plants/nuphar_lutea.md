@@ -10,10 +10,8 @@ by: Mathis Kunold
 author: Niklas Conen
 images:
 - path: "/plants/sweden/nuphar_lutea/nuphar_lutea_1.jpg"
-  alt:
   description:
 - path: "/plants/sweden/nuphar_lutea/nuphar_lutea_2.jpg"
-  alt:
   description:
 taxonomy:
   gbifkey: 7551339

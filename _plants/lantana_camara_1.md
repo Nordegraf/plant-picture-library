@@ -11,22 +11,16 @@ by: Niklas Conen
 author: Niklas Conen
 wild: false
 images:
-  - path: plants/germany/lantana_camara/lantana_camara_1.jpg
-    alt: Lantana camara
-    description: closeup of Lantana camara flower with a butterfly
-  - path: plants/germany/lantana_camara/lantana_camara_2.jpg
-    alt: Lantana camara
-    description: closeup of Lantana camara flower
-  - path: plants/germany/lantana_camara/lantana_camara_3.jpg
-    alt: Lantana camara
-    description: closeup of Lantana camara flower
-  - path: plants/germany/lantana_camara/lantana_camara_4.jpg
-    alt: Lantana camara
-    description: closeup of Lantana camara flower
-  - path: plants/germany/lantana_camara/lantana_camara_5.jpg
-    alt: Lantana camara
-    description: closeup of Lantana camara flower
-  - path: plants/germany/lantana_camara/lantana_camara_6.jpg
-    alt: Lantana camara
-    description: closeup of Lantana camara flower
+- path: plants/germany/lantana_camara/lantana_camara_1.jpg
+  description: closeup of Lantana camara flower with a butterfly
+- path: plants/germany/lantana_camara/lantana_camara_2.jpg
+  description: closeup of Lantana camara flower
+- path: plants/germany/lantana_camara/lantana_camara_3.jpg
+  description: closeup of Lantana camara flower
+- path: plants/germany/lantana_camara/lantana_camara_4.jpg
+  description: closeup of Lantana camara flower
+- path: plants/germany/lantana_camara/lantana_camara_5.jpg
+  description: closeup of Lantana camara flower
+- path: plants/germany/lantana_camara/lantana_camara_6.jpg
+  description: closeup of Lantana camara flower
 ---

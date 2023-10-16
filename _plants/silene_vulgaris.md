@@ -11,7 +11,6 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/germany/silene_vulgaris/silene_vulgaris_1.jpg
-  alt: Silene vulgaris
   description: close up shot of Silene vulgaris
 sources:
 - name: Wikipedia

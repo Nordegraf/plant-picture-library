@@ -7,12 +7,11 @@ coordinates: 49.553464053826104, 8.665741081893243
 by: Jörn Fischer
 author: Niklas Conen
 images:
-    - path: plants/germany/zinnia_elegans/zinnia_elegans_4.jpg
-      alt: Flower of Zinnia elegans
-      description: Flower of Zinnia elegans
+- path: plants/germany/zinnia_elegans/zinnia_elegans_4.jpg
+  description: Flower of Zinnia elegans
 sources:
-    - name: iNaturalist
-      url: https://www.inaturalist.org/taxa/181901-Zinnia-elegans/browse_photos?grouping=taxon_id
+- name: iNaturalist
+  url: https://www.inaturalist.org/taxa/181901-Zinnia-elegans/browse_photos?grouping=taxon_id
 ---
 
 This variant of Zinnia elegans looks a bit different than the one observed in Karlsruhe.

@@ -13,7 +13,6 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/germany/tagetes_erecta/tagetes_erecta_1.jpg
-  alt: Tagetes erecta plant
   description: A Tagetes erecta plant with bright orange flowers
 sources:
 - name: ITIS

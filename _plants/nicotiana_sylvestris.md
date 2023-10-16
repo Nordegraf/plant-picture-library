@@ -11,10 +11,8 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/germany/nicotiana_sylvestris/nicotiana_sylvestris_1.jpg
-  alt: Nicotiana sylvestris
   description: closeup of Nicotiana sylvestris flower
 - path: plants/germany/nicotiana_sylvestris/nicotiana_sylvestris_2.jpg
-  alt: Nicotiana sylvestris
   description: Nicotiana sylvestris plant
 taxonomy:
   gbifkey: 2928767

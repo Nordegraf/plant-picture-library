@@ -9,7 +9,6 @@ by: Moritz Kowalski
 author: Moritz Kowalski
 images:
 - path: plants/indonesia/cocos_nucifera/cocos_nucifera_1.jpg
-  alt: cocos nucifera
   description: close-up of the crown with some not yet ripe cocos fruits
 taxonomy:
   gbifkey: 2735117

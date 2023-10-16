@@ -10,10 +10,8 @@ by: Sandra Jeschka
 author: Moritz Kowalski
 images:
 - path: plants/germany/nymphaea_candida/nymphaea_candida_1.jpg
-  alt: nymphaea candida
   description: close-up of nymphaea candida
 - path: plants/germany/nymphaea_candida/nymphaea_candida_2.jpg
-  alt: nymphaea candida
   description: picture of multiple nymphaea candida
 taxonomy:
   gbifkey: 7410966

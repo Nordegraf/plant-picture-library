@@ -10,7 +10,6 @@ by: Paul Meehan
 author: Niklas Conen
 images:
 - path: plants/sweden/nymphaea_alba/nymphaea_alba_1.jpg
-  alt: Nymphaea alba
   description: picture of a Nymphaea alba
 taxonomy:
   gbifkey: 2882437

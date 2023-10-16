@@ -10,13 +10,10 @@ by: Rebekka Pech
 author: Niklas Conen
 images:
 - path: plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_1.jpg
-  alt: Bougainvillea spectabilis bloom
   description: Close up of Bougainvillea spectabilis flowers
 - path: plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_2.jpg
-  alt: Bougainvillea spectabilis bloom
   description: Blooming Bougainvillea spectabilis
 - path: plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_3.jpg
-  alt: Bougainvillea spectabilis tree
   description: Bougainvillea spectabilis tree
 sources:
 - name: Bougainvillea spectabilis on GBIF

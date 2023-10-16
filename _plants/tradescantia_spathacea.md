@@ -10,10 +10,8 @@ by: Rebekka Pech
 author: Niklas Conen
 images:
 - path: plants/saudi_arabia/tradescantia_spathacea/tradescantia_spathacea_1.jpg
-  alt: set of Tradescantia spathacea plants
   description: set of Tradescantia spathacea plants
 - path: plants/saudi_arabia/tradescantia_spathacea/tradescantia_spathacea_2.jpg
-  alt: set of Tradescantia spathacea plants
   description: set of Tradescantia spathacea plants
 sources:
 - name: Wikipedia

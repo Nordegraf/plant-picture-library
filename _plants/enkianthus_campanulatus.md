@@ -10,7 +10,6 @@ by: Niklas Conen
 author: Niklas Conen
 images:
 - path: plants/germany/enkianthus_campanulatus/enkianthus_campanulatus_1.jpg
-  alt: Enkianthus campanulatus
   description: Close up of flowers of Enkianthus campanulatus
 taxonomy:
   gbifkey: 7135609

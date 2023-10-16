@@ -13,13 +13,10 @@ by: Rebekka Pech
 author: Niklas Conen
 images:
 - path: plants/zambia/urceolina_amazonica/urceolina_amazonica_1.jpg
-  alt: Urceolina amazonica
   description: close up of Urceolina amazonica flowers
 - path: plants/zambia/urceolina_amazonica/urceolina_amazonica_2.jpg
-  alt: Urceolina amazonica
   description: close up of Urceolina amazonica flowers
 - path: plants/zambia/urceolina_amazonica/urceolina_amazonica_3.jpg
-  alt: Urceolina amazonica
   description: urceolina amazonica plant with flowers
 taxonomy:
   gbifkey: 10989209

@@ -10,7 +10,6 @@ by: Moritz Kowalski
 author: Moritz Kowalski
 images:
 - path: plants/thailand/heliconia_psittacorum/heliconia_psittacorum_1.jpg
-  alt: Haliconia psittacorum
   description: picture of the flower with an lizard on top of it
 taxonomy:
   gbifkey: 2760669
