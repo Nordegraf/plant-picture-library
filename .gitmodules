@@ -1,3 +1,4 @@
 [submodule "assets/img/plants"]
 	path = assets/img/plants
 	url = git@github.com:Nordegraf/plants.git
+	branch = main
