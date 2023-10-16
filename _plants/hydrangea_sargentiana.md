@@ -9,7 +9,7 @@ date: 02.07.2023
 by: Sandra Jeschka
 author: Moritz Kowalski
 images:
-- path: assets/img/plants/germany/hydrangea_sargentiana/hydrangea_sargentiana_1.jpg
+- path: plants/germany/hydrangea_sargentiana/hydrangea_sargentiana_1.jpg
   alt: Hydrangeo sargentiana
   description: close-up of the plant hydrangeo sargentiana
 taxonomy:

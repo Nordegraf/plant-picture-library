@@ -9,10 +9,10 @@ date: 30.07.2023
 by: Kira Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/arum_cylindraceum/arum_cylindraceum_1.jpg
+- path: plants/germany/arum_cylindraceum/arum_cylindraceum_1.jpg
   alt:
   description:
-- path: assets/img/plants/germany/arum_cylindraceum/arum_cylindraceum_2.jpg
+- path: plants/germany/arum_cylindraceum/arum_cylindraceum_2.jpg
   alt:
   description:
 taxonomy:

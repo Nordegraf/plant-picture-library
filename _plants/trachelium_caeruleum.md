@@ -10,10 +10,10 @@ date: '09.09.2023'
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/portugal/trachelium_caeruleum/trachelium_caeruleum_1.jpg
+- path: plants/portugal/trachelium_caeruleum/trachelium_caeruleum_1.jpg
   alt: Trachelium caeruleum flowers
   description: close up of some Trachelium caeruleum flowers
-- path: assets/img/plants/portugal/trachelium_caeruleum/trachelium_caeruleum_2.jpg
+- path: plants/portugal/trachelium_caeruleum/trachelium_caeruleum_2.jpg
   alt: Trachelium caeruleum plant
   description: picture of a Trachelium caeruleum plant
 taxonomy:

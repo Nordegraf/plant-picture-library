@@ -9,13 +9,13 @@ date: 25.07.2023
 by: Rebekka Pech
 author: Niklas Conen
 images:
-- path: assets/img/plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_1.jpg
+- path: plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_1.jpg
   alt: Bougainvillea spectabilis bloom
   description: Close up of Bougainvillea spectabilis flowers
-- path: assets/img/plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_2.jpg
+- path: plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_2.jpg
   alt: Bougainvillea spectabilis bloom
   description: Blooming Bougainvillea spectabilis
-- path: assets/img/plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_3.jpg
+- path: plants/saudi_arabia/bougainvillea_spectabilis/bougainvillea_spectabilis_3.jpg
   alt: Bougainvillea spectabilis tree
   description: Bougainvillea spectabilis tree
 sources:

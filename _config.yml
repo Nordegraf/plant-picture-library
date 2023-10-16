@@ -4,6 +4,7 @@ description: >-
   Plant Picture Library
 baseurl: /plant-picture-library
 url: "https://nordegraf.github.io/"
+imageurl: "https://nordegraf.github.io/"
 author: Niklas Conen
 year: 2023
 

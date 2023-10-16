@@ -12,7 +12,7 @@ date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/tagetes_erecta/tagetes_erecta_1.jpg
+- path: plants/germany/tagetes_erecta/tagetes_erecta_1.jpg
   alt: Tagetes erecta plant
   description: A Tagetes erecta plant with bright orange flowers
 sources:

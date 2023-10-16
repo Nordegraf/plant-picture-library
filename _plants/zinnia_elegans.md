@@ -11,13 +11,13 @@ date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_1.jpg
+- path: plants/germany/zinnia_elegans/zinnia_elegans_1.jpg
   alt: Flower of Zinnia elegans
   description: Flower of Zinnia elegans
-- path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_2.jpg
+- path: plants/germany/zinnia_elegans/zinnia_elegans_2.jpg
   alt: Zinnia elegans plant with multiple flowers
   description: Zinnia elegans plant with multiple flowers
-- path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_3.jpg
+- path: plants/germany/zinnia_elegans/zinnia_elegans_3.jpg
   alt: Zinnia elegans plant with multiple flowers
   description: Zinnia elegans plant with multiple flowers
 sources:

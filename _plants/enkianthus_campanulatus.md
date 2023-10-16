@@ -9,7 +9,7 @@ date: 15.05.2022
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/enkianthus_campanulatus/enkianthus_campanulatus_1.jpg
+- path: plants/germany/enkianthus_campanulatus/enkianthus_campanulatus_1.jpg
   alt: Enkianthus campanulatus
   description: Close up of flowers of Enkianthus campanulatus
 taxonomy:

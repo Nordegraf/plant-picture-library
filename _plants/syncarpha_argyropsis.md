@@ -9,7 +9,7 @@ date: 27.08.2022
 by: <a href="https://www.instagram.com/lildsupermarket/">@lildsupermarket</a>
 author: Niklas Conen
 images:
-- path: assets/img/plants/south_africa/syncarpha_argyropsis/syncarpha_argyropsis_1.jpg
+- path: plants/south_africa/syncarpha_argyropsis/syncarpha_argyropsis_1.jpg
   alt: Syncarpha argyropsis flower
   description: close up of a Syncarpha argyropsis flower
 sources:

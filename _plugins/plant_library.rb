@@ -117,14 +117,13 @@ module Plants
           Jekyll.logger.error "Plant #{plant.data['canonical']} has no images and no thumbnail given. Either add a thumbnail through the frontmatter attribute thumb, or add images."
         end
 
-
         @data = {
           'layout' => plant["thumb_layout"] ? plant["thumb_layout"] : 'plant_thumb',
           'plant' => plant,
           'style' => '/assets/css/plants.css',
           'oid' => id,
           'canonical' => plant.data['canonical'],
-          'thumb' => "/assets/img/plants/thumbs/" + thumb,
+          'thumb' => site.config["imageurl"] + "plants/thumbs/" + thumb,
         }
       end
 

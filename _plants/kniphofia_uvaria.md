@@ -9,10 +9,10 @@ date: 29.07.2023
 by: Kira Conen
 author: Kira Conen
 images:
-- path: assets/img/plants/germany/kniphofia_uvaria/kniphofia_uvaria_1.jpg
+- path: plants/germany/kniphofia_uvaria/kniphofia_uvaria_1.jpg
   alt: Kniphofia uvaria flowers
   description: close up of the flowers of Kniphofia uvaria
-- path: assets/img/plants/germany/kniphofia_uvaria/kniphofia_uvaria_2.jpg
+- path: plants/germany/kniphofia_uvaria/kniphofia_uvaria_2.jpg
   alt: Kniphofia uvaria
   description: Kniphofia uvaria plant
 taxonomy:

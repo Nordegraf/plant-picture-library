@@ -10,7 +10,7 @@ date: 16.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/malva_sylvestris/malva_sylvestris_1.jpg
+- path: plants/germany/malva_sylvestris/malva_sylvestris_1.jpg
   alt: Picture of Malva sylvestris
   description: Close up of flowers of Malva sylvestris
 taxonomy:

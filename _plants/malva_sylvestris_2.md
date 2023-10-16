@@ -9,7 +9,7 @@ date: 23.07.2023
 by: Kira Conen
 author: Niklas Conen
 images:
-    - path: assets/img/plants/germany/malva_sylvestris/malva_sylvestris_2.jpg
+    - path: plants/germany/malva_sylvestris/malva_sylvestris_2.jpg
       alt: Picture of Malva sylvestris var. mauritiana
       description: juvenile malva sylvestris var. mauritiana plant
 sources:

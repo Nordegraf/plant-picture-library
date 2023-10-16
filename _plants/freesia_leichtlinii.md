@@ -12,7 +12,7 @@ date: 26.08.2022
 by: <a href="https://www.instagram.com/lildsupermarket/">@lildsupermarket</a>
 author: Niklas Conen
 images:
-- path: assets/img/plants/south_africa/freesia_leichtlinii/freesia_leichtlinii_1.jpg
+- path: plants/south_africa/freesia_leichtlinii/freesia_leichtlinii_1.jpg
   alt: Freesia leichtlinii subsp. alba
   description: closeup of Freesia leichtlinii subsp. alba flowers
 sources:

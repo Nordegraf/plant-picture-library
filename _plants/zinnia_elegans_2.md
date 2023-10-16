@@ -7,7 +7,7 @@ coordinates: 49.553464053826104, 8.665741081893243
 by: Jörn Fischer
 author: Niklas Conen
 images:
-    - path: assets/img/plants/germany/zinnia_elegans/zinnia_elegans_4.jpg
+    - path: plants/germany/zinnia_elegans/zinnia_elegans_4.jpg
       alt: Flower of Zinnia elegans
       description: Flower of Zinnia elegans
 sources:

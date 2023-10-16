@@ -10,16 +10,16 @@ date: '09.09.2023'
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/portugal/justicia_brandegeeana/justicia_brandegeeana_1.jpg
+- path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_1.jpg
   alt: Justicia brandegeeana flower
   description: close up of a Justicia brandegeeana flower
-- path: assets/img/plants/portugal/justicia_brandegeeana/justicia_brandegeeana_2.jpg
+- path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_2.jpg
   alt: Justicia brandegeeana flowers
   description: close up of some Justicia brandegeeana flowers
-- path: assets/img/plants/portugal/justicia_brandegeeana/justicia_brandegeeana_3.jpg
+- path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_3.jpg
   alt: Justicia brandegeeana flowers
   description: close up of some Justicia brandegeeana flowers
-- path: assets/img/plants/portugal/justicia_brandegeeana/justicia_brandegeeana_4.jpg
+- path: plants/portugal/justicia_brandegeeana/justicia_brandegeeana_4.jpg
   alt: Justicia brandegeeana plant
   description: picture of a whole Justicia brandegeeana plant
 taxonomy:

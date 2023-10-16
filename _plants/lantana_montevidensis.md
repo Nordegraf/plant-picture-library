@@ -10,10 +10,10 @@ date: '09.09.2023'
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/portugal/lantana_montevidensis/lantana_montevidensis_1.jpg
+- path: plants/portugal/lantana_montevidensis/lantana_montevidensis_1.jpg
   alt: close up of a Lantana montevidensis flower
   description: close up of a Lantana montevidensis flower
-- path: assets/img/plants/portugal/lantana_montevidensis/lantana_montevidensis_2.jpg
+- path: plants/portugal/lantana_montevidensis/lantana_montevidensis_2.jpg
   alt: Lantana montevidensis plant
   description: picture of a Lantana montevidensis plant
 taxonomy:

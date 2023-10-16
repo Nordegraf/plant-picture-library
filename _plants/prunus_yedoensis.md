@@ -9,13 +9,13 @@ date: 05.04.2021
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/prunus_yedoensis/prunus_yedoensis_1.jpg
+- path: plants/germany/prunus_yedoensis/prunus_yedoensis_1.jpg
   alt: Prunus ×yedoensis flowers
   description: Close up of Prunus ×yedoensis flowers
-- path: assets/img/plants/germany/prunus_yedoensis/prunus_yedoensis_2.jpg
+- path: plants/germany/prunus_yedoensis/prunus_yedoensis_2.jpg
   alt: Prunus ×yedoensis flowers
   description: Close up of Prunus ×yedoensis flowers
-- path: assets/img/plants/germany/prunus_yedoensis/prunus_yedoensis_3.jpg
+- path: plants/germany/prunus_yedoensis/prunus_yedoensis_3.jpg
   alt: Prunus ×yedoensis flowers
   description: Close up of Prunus ×yedoensis flowers
 taxonomy:

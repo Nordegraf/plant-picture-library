@@ -9,7 +9,7 @@ date: 16.08.2023
 by: Paul Meehan
 author: Niklas Conen
 images:
-- path: assets/img/plants/sweden/nymphaea_alba/nymphaea_alba_1.jpg
+- path: plants/sweden/nymphaea_alba/nymphaea_alba_1.jpg
   alt: Nymphaea alba
   description: picture of a Nymphaea alba
 taxonomy:

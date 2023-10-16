@@ -12,13 +12,13 @@ date: 23.09.2023
 by: Rebekka Pech
 author: Niklas Conen
 images:
-- path: assets/img/plants/zambia/urceolina_amazonica/urceolina_amazonica_1.jpg
+- path: plants/zambia/urceolina_amazonica/urceolina_amazonica_1.jpg
   alt: Urceolina amazonica
   description: close up of Urceolina amazonica flowers
-- path: assets/img/plants/zambia/urceolina_amazonica/urceolina_amazonica_2.jpg
+- path: plants/zambia/urceolina_amazonica/urceolina_amazonica_2.jpg
   alt: Urceolina amazonica
   description: close up of Urceolina amazonica flowers
-- path: assets/img/plants/zambia/urceolina_amazonica/urceolina_amazonica_3.jpg
+- path: plants/zambia/urceolina_amazonica/urceolina_amazonica_3.jpg
   alt: Urceolina amazonica
   description: urceolina amazonica plant with flowers
 taxonomy:

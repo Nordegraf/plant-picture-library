@@ -8,7 +8,7 @@ date: 06.10.2019
 by: Moritz Kowalski
 author: Moritz Kowalski
 images:
-- path: assets/img/plants/indonesia/cocos_nucifera/cocos_nucifera_1.jpg
+- path: plants/indonesia/cocos_nucifera/cocos_nucifera_1.jpg
   alt: cocos nucifera
   description: close-up of the crown with some not yet ripe cocos fruits
 taxonomy:

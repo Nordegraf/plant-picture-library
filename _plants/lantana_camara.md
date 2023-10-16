@@ -10,19 +10,19 @@ date: 06.09.2023
 by: Rebekka Pech, Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/portugal/lantana_camara/lantana_camara_1.jpg
+- path: plants/portugal/lantana_camara/lantana_camara_1.jpg
   alt: Lantana camara
   description: close up of two yellow and pink flowers of lantana camara
-- path: assets/img/plants/portugal/lantana_camara/lantana_camara_2.jpg
+- path: plants/portugal/lantana_camara/lantana_camara_2.jpg
   alt: Lantana camara
   description: close up of two yellow and pink flowers of lantana camara
-- path: assets/img/plants/portugal/lantana_camara/lantana_camara_3.jpg
+- path: plants/portugal/lantana_camara/lantana_camara_3.jpg
   alt: Lantana camara
   description: close up of two yellow flowers of lantana camara
-- path: assets/img/plants/portugal/lantana_camara/lantana_camara_4.jpg
+- path: plants/portugal/lantana_camara/lantana_camara_4.jpg
   alt: Lantana camara
   description: close up of a yellow and pink flower of lantana camara
-- path: assets/img/plants/portugal/lantana_camara/lantana_camara_5.jpg
+- path: plants/portugal/lantana_camara/lantana_camara_5.jpg
   alt: Lantana camara
   description: lantana camara bush with multiple flowers
 taxonomy:

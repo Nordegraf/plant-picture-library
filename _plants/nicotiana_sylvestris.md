@@ -10,10 +10,10 @@ date: 29.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/nicotiana_sylvestris/nicotiana_sylvestris_1.jpg
+- path: plants/germany/nicotiana_sylvestris/nicotiana_sylvestris_1.jpg
   alt: Nicotiana sylvestris
   description: closeup of Nicotiana sylvestris flower
-- path: assets/img/plants/germany/nicotiana_sylvestris/nicotiana_sylvestris_2.jpg
+- path: plants/germany/nicotiana_sylvestris/nicotiana_sylvestris_2.jpg
   alt: Nicotiana sylvestris
   description: Nicotiana sylvestris plant
 taxonomy:

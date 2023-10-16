@@ -10,7 +10,7 @@ date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: assets/img/plants/germany/salvia_splendens/salvia_splendens_1.jpg
+- path: plants/germany/salvia_splendens/salvia_splendens_1.jpg
   alt: Salvia splendens plant
   description: A Salvia splendens plant with bright red flowers
 sources:

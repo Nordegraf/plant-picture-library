@@ -10,7 +10,7 @@ date: 18.06.2023
 by: Sandra Jeschka
 author: Moritz Kowalski
 images:
-- path: assets/img/plants/germany/nymphaea_nouchali/nymphaea_nouchali_1.jpg
+- path: plants/germany/nymphaea_nouchali/nymphaea_nouchali_1.jpg
   alt: nymphaea nouchali
   description: picture of nymphaea nouchali in water
 taxonomy:

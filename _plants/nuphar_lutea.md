@@ -9,10 +9,10 @@ date: 12.08.2023
 by: Mathis Kunold
 author: Niklas Conen
 images:
-- path: "/assets/img/plants/sweden/nuphar_lutea/nuphar_lutea_1.jpg"
+- path: "/plants/sweden/nuphar_lutea/nuphar_lutea_1.jpg"
   alt:
   description:
-- path: "/assets/img/plants/sweden/nuphar_lutea/nuphar_lutea_2.jpg"
+- path: "/plants/sweden/nuphar_lutea/nuphar_lutea_2.jpg"
   alt:
   description:
 taxonomy:

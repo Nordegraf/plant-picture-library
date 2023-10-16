@@ -10,10 +10,10 @@ date: 26.07.2023
 by: Rebekka Pech
 author: Niklas Conen
 images:
-- path: assets/img/plants/saudi_arabia/catharanthus_roseus/catharanthus_roseus_1.jpg
+- path: plants/saudi_arabia/catharanthus_roseus/catharanthus_roseus_1.jpg
   alt: pink catharanthus roseus bloom
   description: close up of pink catharanthus roseus bloom
-- path: assets/img/plants/saudi_arabia/catharanthus_roseus/catharanthus_roseus_2.jpg
+- path: plants/saudi_arabia/catharanthus_roseus/catharanthus_roseus_2.jpg
   alt: white catharanthus roseus bloom
   description: close up of white catharanthus roseus bloom
 sources:
