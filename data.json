@@ -58,7 +58,7 @@
             
         
             
-            ,"city": ["Kronberg"]
+            ,"city": ["Kronberg im Taunus"]
             
         
             
@@ -837,6 +837,139 @@
         
             
             ,"location": ["Ngoli De Lodge"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "46",
+        "name": "Dahlia pinnata"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Frankfurt"]
+            
+        
+            
+            ,"location": ["Palmengarten"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "47",
+        "name": "Dahlia sorensenii"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Frankfurt"]
+            
+        
+            
+            ,"location": ["Palmengarten"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "48",
+        "name": "Heliotropium arborescens"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Frankfurt"]
+            
+        
+            
+            ,"location": ["Palmengarten"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "49",
+        "name": "Impatiens auricoma"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Frankfurt"]
+            
+        
+            
+            ,"location": ["Palmengarten"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "50",
+        "name": "Impatiens niamniamensis"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Frankfurt"]
+            
+        
+            
+            ,"location": ["Palmengarten"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "51",
+        "name": "Lapageria rosea"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Frankfurt"]
+            
+        
+            
+            ,"location": ["Palmengarten"]
+            
+        
+      }
+      ,
+    
+      {
+        "id": "52",
+        "name": "Tricyrtis hirta"
+        
+            
+            ,"country": ["Germany"]
+            
+        
+            
+            ,"city": ["Frankfurt"]
+            
+        
+            
+            ,"location": ["Palmengarten"]
             
         
       }
