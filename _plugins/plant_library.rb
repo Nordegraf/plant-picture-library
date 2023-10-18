@@ -289,10 +289,11 @@ module Plants
         # if in development, use source directory
         # otherwise the thumbnails would have to be generated every time the site is built
         thumbdir = site.source + "/assets/img/plants/thumbs/"
+        generate_thumbnails(site.source, thumbdir, site)
       else
         thumbdir = site.dest + "/assets/img/plants/thumbs/"
       end
-      generate_thumbnails(site.source, thumbdir, site)
+
       Jekyll.logger.info "Plant Picture Library:" , "Generated Plant Thumbnails"
     end
 end
