@@ -26,7 +26,7 @@ jobs:
           enable_cache: true
           format_output: true
           prettier_ignore: "plantdata.html"
-
+          jekyll_env: production
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
