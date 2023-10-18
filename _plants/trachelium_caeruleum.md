@@ -1,12 +1,14 @@
 ---
 canonical: Trachelium caeruleum
 common: Blue Throatwort
-german: Blaue Halskraut
+german: Blaues Halskraut
 country: Portugal
 city: Sintra
 location: Quinta da Regaleira
 coordinates: 38.796099999999996, -9.395780555555556
-date: '09.09.2023'
+wild: false
+botanic_garden: false
+date: 09.09.2023
 by: Niklas Conen
 author: Niklas Conen
 images:

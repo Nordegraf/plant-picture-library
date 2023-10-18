@@ -6,6 +6,8 @@ country: Portugal
 city: Lisbon
 location: Castelo de São Jorge
 coordinates: 38.7131219997222, -9.1334928
+wild: false
+botanic_garden: false
 date: 06.09.2023
 by: Rebekka Pech, Niklas Conen
 author: Niklas Conen

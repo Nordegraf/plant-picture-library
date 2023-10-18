@@ -6,6 +6,8 @@ country: Germany
 city: Munich
 location: Schaugewächshäuser
 coordinates: 48.1634555555556, 11.5021333333333
+wild: false
+botanic_garden: true
 date: 18.06.2023
 by: Sandra Jeschka
 author: Moritz Kowalski

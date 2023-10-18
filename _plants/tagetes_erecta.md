@@ -8,6 +8,8 @@ country: Germany
 city: Karlsruhe
 location: Kongresszentrum
 coordinates: 49.00240524252521, 8.402913574103959
+wild: false
+botanic_garden: false
 date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen

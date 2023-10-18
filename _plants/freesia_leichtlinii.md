@@ -8,6 +8,8 @@ country: South Africa
 city: Cape Town
 location: Kirstenbosch Botanical Gardens
 coordinates: -33.987510019234165, 18.4327205472886
+wild: false
+botanic_garden: true
 date: 26.08.2022
 by: <a href="https://www.instagram.com/lildsupermarket/">@lildsupermarket</a>
 author: Niklas Conen

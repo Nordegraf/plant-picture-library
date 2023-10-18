@@ -6,6 +6,8 @@ country: Saudi Arabia
 city: Thuwal
 location: KAUST
 coordinates: 22.311161972381818, 39.09491227375742
+wild: false
+botanic_garden: false
 date: 28.07.2023
 by: Rebekka Pech
 author: Niklas Conen

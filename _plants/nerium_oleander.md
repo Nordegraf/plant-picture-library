@@ -4,7 +4,9 @@ german: Gewöhnlicher Oleander
 country: Saudi Arabia
 city: Thuwal
 location: KAUST
-coordinates:
+coordinates: 22.311767200552662, 39.09488809696568
+wild: false
+botanic_garden: false
 date: 28.07.2023
 by: Rebekka Pech
 author: Niklas Conen

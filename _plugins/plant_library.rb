@@ -123,7 +123,7 @@ module Plants
           'style' => '/assets/css/plants.css',
           'oid' => id,
           'canonical' => plant.data['canonical'],
-          'thumb' => site.config["imageurl"] + "plants/thumbs/" + thumb,
+          'thumb' => "plants/thumbs/" + thumb,
         }
       end
 
@@ -164,6 +164,13 @@ module Plants
         filterlookups = {}
         filterattrs = {}
 
+        # get data for sidebar filters. data should be hierarchical.
+        sidebardata = {}
+
+        for attr in site.data["filter_values"][site.data["filter_attributes"][0]]
+          sidebardata[attr] = []
+        end
+
         for doc in site.collections['plants'].docs
           hierarchy_str = ""
           attrs_str = ""
@@ -186,8 +193,24 @@ module Plants
               end
             end
           end
+
+          valuekey = doc.data[site.data["filter_attributes"][0]]
+          for attr in site.data["filter_attributes"][1..-1]
+            new_value = doc.data[attr]
+            if !new_value.nil?
+              if sidebardata[valuekey].nil?
+                sidebardata[valuekey] = []
+              elsif !sidebardata[valuekey].include? new_value
+                sidebardata[valuekey].push(new_value)
+              end
+              valuekey += "." + new_value
+            end
+          end
         end
 
+        Jekyll.logger.info "PPL", sidebardata
+
+        site.data["sidebar_data"] = sidebardata
         site.data["filter_hierarchy"] = filterlookups
         site.data["filter_hierarchy_attrs"] = filterattrs
 

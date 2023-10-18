@@ -5,6 +5,8 @@ country: Germany
 city: Munich
 location: Botanischer Garten
 coordinates: 48.1637111111111, 11.5005583333333
+wild: false
+botanic_garden: true
 date: 18.06.2023
 by: Sandra Jeschka
 author: Moritz Kowalski

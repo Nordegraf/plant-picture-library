@@ -8,6 +8,8 @@ country: Zambia
 city: Livingstone
 location: Ngoli De Lodge
 coordinates: -17.861800,25.854800
+wild: false
+botanic_garden: false
 date: 23.09.2023
 by: Rebekka Pech
 author: Niklas Conen

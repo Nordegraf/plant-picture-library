@@ -6,6 +6,8 @@ location: Masturah Dunes
 country: Saudi Arabia
 date: 01.04.2023
 coordinates: 23.41828100224373, 38.95569383769491
+wild: true
+botanic_garden: false
 images:
 - path: plants/saudi_arabia/calotropis_procera/calotropis_procera_1.jpg
   description: Apple of Sodom

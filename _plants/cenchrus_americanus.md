@@ -4,13 +4,15 @@ common: Pearl Millet
 synonyme: Pennisetum glaucum (L.) R.Br.
 location: Masturah Dunes
 country: Saudi Arabia
+coordinates: 23.41828100224373, 38.95569383769491
+wild: false
+botanic_garden: false
 date: 01.04.2023
 images:
 - path: plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_1.jpg
   description: Pearl Millet
 - path: plants/saudi_arabia/cenchrus_americanus/cenchrus_americanus_2.jpg
   description: Pearl Millet
-coordinates: 23.41828100224373, 38.95569383769491
 sources:
 - name: '4500-Year old domesticated pearl millet (Pennisetum glaucum) from the Tilemsi
     Valley, Mali: new insights into an alternative cereal domestication pathway'

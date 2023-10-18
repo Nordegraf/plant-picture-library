@@ -5,6 +5,8 @@ german: Arabischer Burzeldorn
 location: Wadi ad-Dawasir
 country: Saudi Arabia
 coordinates: 20.456740229979363, 44.85280383937988
+wild: true
+botanic_garden: false
 date: 25.03.2023
 images:
 - path: plants/saudi_arabia/tribulus_arabicus/tribulus_arabicus_1.jpg

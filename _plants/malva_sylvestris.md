@@ -6,6 +6,8 @@ country: Germany
 city: Karlsruhe
 location: Südweststadt
 coordinates: 48.9984270395024, 8.389608688430911
+wild: true
+botanic_garden: false
 date: 16.07.2023
 by: Niklas Conen
 author: Niklas Conen

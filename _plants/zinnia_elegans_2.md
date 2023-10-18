@@ -4,6 +4,8 @@ city: Weinheim
 country: Germany
 date: 23.07.2023
 coordinates: 49.553464053826104, 8.665741081893243
+wild: false
+botanic_garden: false
 by: Jörn Fischer
 author: Niklas Conen
 images:

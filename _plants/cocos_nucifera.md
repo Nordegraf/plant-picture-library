@@ -3,7 +3,9 @@ canonical: Cocos nucifera
 common: coconut tree
 german: Kokospalme
 country: Indonesia
-coordinates: "-8.46437222222222, 115.125375"
+coordinates: -8.46437222222222, 115.125375
+wild: true
+botanic_garden: false
 date: 06.10.2019
 by: Moritz Kowalski
 author: Moritz Kowalski

@@ -5,6 +5,8 @@ german: Weiße Seerose
 country: Sweden
 location: Norr-älgen
 coordinates: 59.857, 14.554666666666668
+wild: true
+botanic_garden: false
 date: 16.08.2023
 by: Paul Meehan
 author: Niklas Conen

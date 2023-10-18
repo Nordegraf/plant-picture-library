@@ -5,6 +5,8 @@ german: Rote Fackellilie
 country: Germany
 city: Düsseldorf
 coordinates: 51.2097800000159, 6.76219983758208
+wild: false
+botanic_garden: false
 date: 29.07.2023
 by: Kira Conen
 author: Kira Conen

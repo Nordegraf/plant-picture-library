@@ -5,6 +5,8 @@ german: Mauretanische Malve
 country: Germany
 city: Ürzig
 coordinates: 49.97825325852977, 7.006353322180092
+wild: true
+botanic_garden: false
 date: 23.07.2023
 by: Kira Conen
 author: Niklas Conen

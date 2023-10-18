@@ -10,6 +10,7 @@ date: 12.10.2023
 by: Niklas Conen
 author: Niklas Conen
 wild: false
+botanic_garden: true
 images:
 - path: plants/germany/lantana_camara/lantana_camara_1.jpg
   description: closeup of Lantana camara flower with a butterfly

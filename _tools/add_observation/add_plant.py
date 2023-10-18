@@ -23,6 +23,8 @@ class Observation:
             "city",
             "location",
             "coordinates",
+            "wild",
+            "botanical_garden",
             "date",
             "by",
             "author",
@@ -121,10 +123,29 @@ class Observation:
 
         for image in images:
             shutil.move(image, asset_path)
-            image_path = f"{asset_path.replace('../', '').replace('./', '')}{image.replace(self.image_path, '')}"
+            image_path = f"plants/{country}/{species}/{image.replace(self.image_path, '')}"
             self.data["images"].append(image_path)
 
         self.data["images"] = sorted(self.data["images"])
+
+    def __location_flags(self):
+        wild = input("Did this plant grow in the wild (it hasn't been planted in a garden or similar)? (y/n) ")
+
+        if wild == "y":
+            self.data["wild"] = True
+        else:
+            self.data["wild"] = False
+
+        if not self.data["wild"]:
+            botanic = input("Did this flower grow inside of a botanical garden or similar (i.e. does it need a glasshouse or similar)? (y/n)")
+
+            if botanic == "y":
+                self.data["botanical_garden"] = True
+            else:
+                self.data["botanical_garden"] = False
+
+        else:
+            self.data["botanical_garden"] = False
 
     def __create_markdown(self) -> str:
         """
@@ -170,7 +191,6 @@ class Observation:
         yaml = "\n"
         for image in images:
             yaml += f"  - path: {image}\n"
-            yaml += f"    alt:\n"
             yaml += f"    description:\n"
 
         return yaml
@@ -199,6 +219,8 @@ class Observation:
 
         self.__get_location_data(self.data.get("coordinates"))
 
+        self.__location_flags()
+
         self.__rename_images(self.canonical)
 
         self.data["images"] = []
@@ -208,6 +230,7 @@ class Observation:
 
         print("Done! Added an observation of species: " + self.canonical)
         print(f"Please check the markdown file at {md_file} and add the missing data.")
+
 
 if __name__ == "__main__":
     observation = Observation()

@@ -6,6 +6,8 @@ country: Germany
 city: Karlsruhe
 location: Europahalle
 coordinates: 48.99744402770642, 8.37820627198637
+wild: true
+botanic_garden: false
 date: 29.07.2023
 by: Niklas Conen
 author: Niklas Conen

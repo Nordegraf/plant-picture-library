@@ -5,6 +5,8 @@ german: Hummerscheren
 country: Thailand
 city: Ban Bang La On
 coordinates: 8.64899,98.25281
+wild: true
+botanical_garden: false
 date: 26.09.2018
 by: Moritz Kowalski
 author: Moritz Kowalski

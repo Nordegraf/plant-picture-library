@@ -7,6 +7,8 @@ location: Stadtgarten
 city: Karlsruhe
 country: Germany
 coordinates: 49.001917292891505, 8.398016669572863
+wild: false
+botanic_garden: false
 date: 15.07.2023
 by: Niklas Conen
 author: Niklas Conen

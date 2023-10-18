@@ -4,7 +4,9 @@ common: White Everlasting
 country: South Africa
 city: Betty's Bay
 location: Harold Porter National Botanical Gardens
-coordinates: "-34.35084017556418, 18.92694637978612"
+coordinates: -34.35084017556418, 18.92694637978612
+wild: false
+botanic_garden: true
 date: 27.08.2022
 by: <a href="https://www.instagram.com/lildsupermarket/">@lildsupermarket</a>
 author: Niklas Conen

@@ -5,6 +5,8 @@ country: Germany
 city: Düsseldorf
 location: Volksgarten
 coordinates: 51.209348808358165, 6.793539428366648
+wild: false
+botanic_garden: false
 date: 30.07.2023
 by: Kira Conen
 author: Niklas Conen

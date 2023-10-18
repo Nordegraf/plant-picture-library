@@ -5,6 +5,8 @@ country: Germany
 city: Kronberg im Taunus
 location: Schlosshotel
 coordinates: 50.18955968756297, 8.507550834649882
+wild: false
+botanic_garden: false
 date: 15.05.2022
 by: Niklas Conen
 author: Niklas Conen

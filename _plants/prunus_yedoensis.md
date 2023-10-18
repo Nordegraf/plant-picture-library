@@ -3,8 +3,10 @@ canonical: Prunus × yedoensis
 common: Yoshino Cherry
 german: Japanische Maienkirsche
 country: Germany
-city: Kronberg
+city: Kronberg im Taunus
 coordinates: 50.17987455667167, 8.517339384570086
+wild: false
+botanic_garden: false
 date: 05.04.2021
 by: Niklas Conen
 author: Niklas Conen

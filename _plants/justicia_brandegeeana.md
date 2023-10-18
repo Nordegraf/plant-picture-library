@@ -6,7 +6,9 @@ country: Portugal
 city: Sintra
 location: Quinta da Regaleira
 coordinates: 38.79608611111111, -9.395763888888888
-date: '09.09.2023'
+wild: false
+botanic_garden: false
+date: 09.09.2023
 by: Niklas Conen
 author: Niklas Conen
 images:

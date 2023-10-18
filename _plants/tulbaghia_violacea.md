@@ -6,6 +6,8 @@ country: Zambia
 city: Lusaka
 location: Cross roads Lodge
 coordinates: -15.383067, 28.309489
+wild: false
+botanic_garden: false
 date: 21.09.2023
 by: Rebekka Pech
 author: Niklas Conen

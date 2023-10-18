@@ -5,6 +5,8 @@ german: Gelbe Teichrose
 country: Sweden
 location: Skarjen
 coordinates: 59.528955, 14.704762
+wild: true
+botanic_garden: false
 date: 12.08.2023
 by: Mathis Kunold
 author: Niklas Conen

@@ -6,6 +6,8 @@ country: Germany
 city: Heidelberg
 location: Königstuhl
 coordinates: 49.40446964547369, 8.72668134671603
+wild: true
+botanic_garden: false
 date: 24.06.2023
 by: Niklas Conen
 author: Niklas Conen

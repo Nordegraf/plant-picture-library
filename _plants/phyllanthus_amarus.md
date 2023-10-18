@@ -4,6 +4,7 @@ synonyms: gale of the wind, carry me seed, seed on the leaf
 location: KAUST
 city: Thuwal
 country: Saudi Arabia
+coordinates: 22.314024270951574, 39.094267707141185
 date: 14.04.2023
 images:
 - path: plants/saudi_arabia/phyllanthus_amarus/phyllanthus_amarus_1.jpg

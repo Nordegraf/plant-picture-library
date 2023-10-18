@@ -2,11 +2,13 @@
 canonical: Heliotropium bacciferum
 location: Masturah Dunes
 country: Saudi Arabia
+coordinates: 23.41828100224373, 38.95569383769491
+wild: true
+botanic_garden: false
 date: 01.04.2023
 images:
 - path: plants/saudi_arabia/heliotropium/heliotropium.jpg
   description: Heliotropium
-coordinates: 23.41828100224373, 38.95569383769491
 taxonomy:
   gbifkey: 7295525
   fetched: 28.07.2023
