@@ -261,7 +261,7 @@ module Plants
 
     def self.generate_thumbnails(source, dest, site)
       for doc in site.collections['plants'].docs
-        imgfile = doc.data['image']
+        imgfile = "assets/img/" + doc.data['image']
 
         if !imgfile.start_with?('/')
           imgfile = '/' + imgfile
