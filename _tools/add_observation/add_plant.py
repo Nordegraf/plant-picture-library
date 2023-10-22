@@ -5,7 +5,7 @@ import os
 from geopy.geocoders import Nominatim
 import shutil
 from pathlib import Path
-
+from PIL import Image, ImageOps
 class Observation:
 
     def __init__(self) -> None:
@@ -50,13 +50,22 @@ class Observation:
             os.rename(image, f"{self.image_path}{species.lower().replace(' ', '_')}_{i}.jpg")
             i += 1
 
+    def __rotate_images(self) -> None:
+        """
+        Rotate all images in the images folder to the correct orientation.
+        """
+        images = glob.glob(self.image_path + "*.jpg")
+        for image in images:
+            im = Image.open(image)
+            im = ImageOps.exif_transpose(im)
+            im.save(image)
+
     def __read_exif_data(self) -> None:
         """
         Read GPS Position and Date from EXIF data and add it to the data dict
         """
 
         images = glob.glob(self.image_path + "*.jpg")
-        lat, lon = 0, 0
 
         for image in images:
             geotag = ""
@@ -137,12 +146,18 @@ class Observation:
             self.data["wild"] = False
 
         if not self.data["wild"]:
-            botanic = input("Did this flower grow inside of a botanical garden or similar (i.e. does it need a glasshouse or similar)? (y/n)")
+            while True:
+                botanic = input("Did this flower grow inside of a botanical garden or similar (i.e. does it need a glasshouse or similar)? (y/n) ")
 
-            if botanic == "y":
-                self.data["botanical_garden"] = True
-            else:
-                self.data["botanical_garden"] = False
+                if not (botanic == "y" or botanic == "n"):
+                    print("Invalid input, please try again.")
+                    continue
+
+                if botanic == "y":
+                    self.data["botanical_garden"] = True
+                elif botanic == "n":
+                    self.data["botanical_garden"] = False
+                break
 
         else:
             self.data["botanical_garden"] = False
@@ -220,6 +235,8 @@ class Observation:
         self.__get_location_data(self.data.get("coordinates"))
 
         self.__location_flags()
+
+        self.__rotate_images()
 
         self.__rename_images(self.canonical)
 
