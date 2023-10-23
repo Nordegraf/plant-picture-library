@@ -1,5 +1,7 @@
 ---
-canonical: Orbea variegata
+canonical: Ceropegia mixta
+synonyms:
+- Orbea variegata
 common: star flower
 german: Aasblume
 country: Germany
@@ -12,11 +14,11 @@ date: 22.10.2023
 by: Niklas Conen
 author: Niklas Conen
 images:
-- path: plants/germany/orbea_variegata/orbea_variegata_1.jpg
+- path: plants/germany/ceropegia_mixta/ceropegia_mixta_1.jpg
   description: close up of the flower of Orbea variegata
 taxonomy:
-  gbifkey: 3574727
-  fetched: 22.10.2023
+  gbifkey: 9534856
+  fetched: 23.10.2023
   kingdom: Plantae
   phylum: Tracheophyta
   class: Magnoliopsida
@@ -24,5 +26,5 @@ taxonomy:
   family: Apocynaceae
   genus: Ceropegia
   species: Ceropegia mixta
-scientific: Orbea variegata (L.) Haw.
+scientific: Ceropegia mixta (Masson) Bruyns
 ---
