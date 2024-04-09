@@ -1,5 +1,5 @@
 ---
-canonical: Hippeastrum
+canonical: Hippeastrum reginae
 german: Ritterstern
 country: Germany
 city: Frankfurt
@@ -11,7 +11,7 @@ date: 08.04.2024
 by: Moritz Kowalski
 author: Moritz Kowalski
 images:
-- path: /plants/germany/hippeastrum/hippeastrum_1.jpg
-  description: close up shot of the flower of Hippeastrum
+- path: /plants/germany/hippeastrumReginae/hippeastrum_reginae_1.jpg
+  description: close up shot of the flower of Hippeastrum reginae
 
 ---
