@@ -3,7 +3,7 @@ canonical: Hippeastrum reginae
 german: Ritterstern
 country: Germany
 city: Frankfurt
-location: Uni Frankfurt FS Küche
+location: Uni Frankfurt Institut für Informatik
 coordinates: 50.1163889,8.650277777777777
 wild: false
 botanical_garden: false
