@@ -11,7 +11,7 @@ date: '08.04.2024'
 by: Moritz Kowalski
 author: Moritz Kowalski
 images:
-- path: "/plants/germany/hippeastrumReginae/hippeastrum_reginae_1.jpg"
+- path: "/plants/germany/hippeastrum_reginae/hippeastrum_reginae_1.jpg"
   description: close up shot of the flower of Hippeastrum reginae
 taxonomy:
   gbifkey: 2854474
